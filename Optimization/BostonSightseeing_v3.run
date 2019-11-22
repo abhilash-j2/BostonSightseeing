@@ -1,0 +1,23 @@
+reset;
+
+model BostonSightseeing_v3.mod;
+data BostonSightseeing_v3.dat;
+option solver gurobi;
+# expand TotalVisits, TimeSpent;
+solve;
+
+option log_file 'logout.tmp';
+
+display travel;
+display TotalCost, TotalVisits, TimeSpent;
+display InDegreeOutDegreeMatch;
+
+set PLACES = ALL_PLACES;
+
+table travelled OUT :
+ [ALL_PLACES, PLACES], travel ;
+ 
+#write table travelled;
+
+display visited ;
+
