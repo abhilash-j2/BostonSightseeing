@@ -1,0 +1,41 @@
+reset;
+
+model BostonSightseeing_v5.mod;
+data BostonSightseeing_v5.dat;
+option solver gurobi;
+# expand TotalVisits, TimeSpent;
+solve;
+
+option log_file 'logout2.tmp';
+
+display DAYS;
+display travel;
+display TotalCost,  TimeSpent;
+display InDegreeOutDegreeMatch;
+
+set PLACES = ALL_PLACES;
+
+table travelled OUT :
+ [ALL_PLACES, PLACES, DAYS], travel ;
+ 
+write table travelled;
+
+display "****** VISITED ARCS **********";
+# display visited ;
+display {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS : travel[i,j,d] = 1};
+
+display "****** DISTANCE COVERED **********";
+# Displaying distance covred:
+display {d in DAYS} sum { (i,j,d) in ALL_VALID_PAIRS cross DAYS } Distance[i,j]*travel[i,j,d];
+
+display "****** TIMEVALUE TABLES **********";
+# Display the edges and the src timevalue and dest timevalue
+display {(i,j, d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] = 1} (d, Timevalue[i,d] ,Timevalue[j,d]);
+
+display "****** NUMBER OF PLACES VISITED **********";
+# Display Number of places visited
+display sum {src in ALL_PLACES, dst in ALL_PLACES, d in DAYS}  travel[src, dst, d] ;
+
+display "****** COST INCURRED **********";
+display sum {src in ALL_PLACES, dst in ALL_PLACES, day in DAYS}
+      (Cost[src] + costFactor*timeFactor*Distance[src, dst]) * travel[src,dst, day];

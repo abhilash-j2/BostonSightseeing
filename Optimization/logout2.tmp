@@ -1,0 +1,3558 @@
+travel [*,*]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+TimeSpent = 0
+
+InDegreeOutDegreeMatch [*] :=
+AnaHACM 0   BstnBll 0   CmmnwAM 0   FrtWrrn 0   MsmofFA 0   PirsPrk 0
+ArlngSC 0   BstnOpH 0   DwnstCH 0   JhFKPML 0   MtrplWM 0   SmlAdmB 0
+ArnldAr 0   BstnPbG 0   EmrldNc 0   LttBIaL 0   NrthEnd 0   ThBstnP 0
+BackBay 0   BstnPbL 0   EtDaMGH 0   MFABstn 0   NwEnCJH 0   ThPOoEG 0
+BstnAth 0   BstnWnr 0   FnwyPrk 0   Mrrt_CH 0   NwEngHM 0   ThmpsnI 0
+;
+
+set {(i,j) in ALL_PLACES cross ALL_PLACES: travel[i,j] == 1}  :=
+(HOME_NEU_START,EmrldNc)   (EmrldNc,HOME_NEU_END);
+
+sum{(i,j) in ALL_VALID_PAIRS} Distance[i,j]*travel[i,j] = 0.3748
+
+:                           Timevalue[i] Timevalue[j]    :=
+EmrldNc        HOME_NEU_END    0.013118    10
+HOME_NEU_START EmrldNc         0            0.013118
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES} travel[src,dst] = 2
+
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 0.3748
+4 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+travel [*,*]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+TimeSpent = 0
+
+InDegreeOutDegreeMatch [*] :=
+AnaHACM 0   BstnBll 0   CmmnwAM 0   FrtWrrn 0   MsmofFA 0   PirsPrk 0
+ArlngSC 0   BstnOpH 0   DwnstCH 0   JhFKPML 0   MtrplWM 0   SmlAdmB 0
+ArnldAr 0   BstnPbG 0   EmrldNc 0   LttBIaL 0   NrthEnd 0   ThBstnP 0
+BackBay 0   BstnPbL 0   EtDaMGH 0   MFABstn 0   NwEnCJH 0   ThPOoEG 0
+BstnAth 0   BstnWnr 0   FnwyPrk 0   Mrrt_CH 0   NwEngHM 0   ThmpsnI 0
+;
+
+set {(i,j) in ALL_PLACES cross ALL_PLACES: travel[i,j] == 1}  :=
+(HOME_NEU_START,EmrldNc)   (EmrldNc,HOME_NEU_END);
+
+sum{(i,j) in ALL_VALID_PAIRS} Distance[i,j]*travel[i,j] = 0.3748
+
+:                           Timevalue[i] Timevalue[j]    :=
+EmrldNc        HOME_NEU_END    0.013118    10
+HOME_NEU_START EmrldNc         0            0.013118
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES} travel[src,dst] = 2
+
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 0.3748
+4 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+travel [*,*]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+TimeSpent = 0
+
+InDegreeOutDegreeMatch [*] :=
+AnaHACM 0   BstnBll 0   CmmnwAM 0   FrtWrrn 0   MsmofFA 0   PirsPrk 0
+ArlngSC 0   BstnOpH 0   DwnstCH 0   JhFKPML 0   MtrplWM 0   SmlAdmB 0
+ArnldAr 0   BstnPbG 0   EmrldNc 0   LttBIaL 0   NrthEnd 0   ThBstnP 0
+BackBay 0   BstnPbL 0   EtDaMGH 0   MFABstn 0   NwEnCJH 0   ThPOoEG 0
+BstnAth 0   BstnWnr 0   FnwyPrk 0   Mrrt_CH 0   NwEngHM 0   ThmpsnI 0
+;
+
+set {(i,j) in ALL_PLACES cross ALL_PLACES: travel[i,j] == 1}  :=
+(HOME_NEU_START,EmrldNc)   (EmrldNc,HOME_NEU_END);
+
+sum{(i,j) in ALL_VALID_PAIRS} Distance[i,j]*travel[i,j] = 0.3748
+
+:                           Timevalue[i] Timevalue[j]    :=
+EmrldNc        HOME_NEU_END    0.013118    10
+HOME_NEU_START EmrldNc         0            0.013118
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES} travel[src,dst] = 2
+
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 0.3748
+4 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+travel [*,*]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+TimeSpent = 0
+
+InDegreeOutDegreeMatch [*] :=
+AnaHACM 0   BstnBll 0   CmmnwAM 0   FrtWrrn 0   MsmofFA 0   PirsPrk 0
+ArlngSC 0   BstnOpH 0   DwnstCH 0   JhFKPML 0   MtrplWM 0   SmlAdmB 0
+ArnldAr 0   BstnPbG 0   EmrldNc 0   LttBIaL 0   NrthEnd 0   ThBstnP 0
+BackBay 0   BstnPbL 0   EtDaMGH 0   MFABstn 0   NwEnCJH 0   ThPOoEG 0
+BstnAth 0   BstnWnr 0   FnwyPrk 0   Mrrt_CH 0   NwEngHM 0   ThmpsnI 0
+;
+
+set {(i,j) in ALL_PLACES cross ALL_PLACES: travel[i,j] == 1}  :=
+(HOME_NEU_START,EmrldNc)   (EmrldNc,HOME_NEU_END);
+
+sum{(i,j) in ALL_VALID_PAIRS} Distance[i,j]*travel[i,j] = 0.3748
+
+:                           Timevalue[i] Timevalue[j]    :=
+EmrldNc        HOME_NEU_END    0.013118    10
+HOME_NEU_START EmrldNc         0            0.013118
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES} travel[src,dst] = 2
+
+ampl: model 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.mod';
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.mod, line 12 (offset 549):
+	HOMEBASE_START is already defined
+context:  set  >>> HOMEBASE_START; <<< 
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 0.3748
+4 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+travel [*,*]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+TimeSpent = 0
+
+InDegreeOutDegreeMatch [*] :=
+AnaHACM 0   BstnBll 0   CmmnwAM 0   FrtWrrn 0   MsmofFA 0   PirsPrk 0
+ArlngSC 0   BstnOpH 0   DwnstCH 0   JhFKPML 0   MtrplWM 0   SmlAdmB 0
+ArnldAr 0   BstnPbG 0   EmrldNc 0   LttBIaL 0   NrthEnd 0   ThBstnP 0
+BackBay 0   BstnPbL 0   EtDaMGH 0   MFABstn 0   NwEnCJH 0   ThPOoEG 0
+BstnAth 0   BstnWnr 0   FnwyPrk 0   Mrrt_CH 0   NwEngHM 0   ThmpsnI 0
+;
+
+set {(i,j) in ALL_PLACES cross ALL_PLACES: travel[i,j] == 1}  :=
+(HOME_NEU_START,EmrldNc)   (EmrldNc,HOME_NEU_END);
+
+sum{(i,j) in ALL_VALID_PAIRS} Distance[i,j]*travel[i,j] = 0.3748
+
+:                           Timevalue[i] Timevalue[j]    :=
+EmrldNc        HOME_NEU_END    0.013118    10
+HOME_NEU_START EmrldNc         0            0.013118
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES} travel[src,dst] = 2
+
+ampl: display DAYS;
+
+DAYS is not defined
+context:  display  >>> DAYS; <<< 
+ampl: display DAYS;
+
+DAYS is not defined
+context:  display  >>> DAYS; <<< 
+ampl: display NumberOfDays;
+
+NumberOfDays is not defined
+context:  display  >>> NumberOfDays; <<< 
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 0.3748
+4 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+travel [*,*]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+TimeSpent = 0
+
+InDegreeOutDegreeMatch [*] :=
+AnaHACM 0   BstnBll 0   CmmnwAM 0   FrtWrrn 0   MsmofFA 0   PirsPrk 0
+ArlngSC 0   BstnOpH 0   DwnstCH 0   JhFKPML 0   MtrplWM 0   SmlAdmB 0
+ArnldAr 0   BstnPbG 0   EmrldNc 0   LttBIaL 0   NrthEnd 0   ThBstnP 0
+BackBay 0   BstnPbL 0   EtDaMGH 0   MFABstn 0   NwEnCJH 0   ThPOoEG 0
+BstnAth 0   BstnWnr 0   FnwyPrk 0   Mrrt_CH 0   NwEngHM 0   ThmpsnI 0
+;
+
+set {(i,j) in ALL_PLACES cross ALL_PLACES: travel[i,j] == 1}  :=
+(HOME_NEU_START,EmrldNc)   (EmrldNc,HOME_NEU_END);
+
+sum{(i,j) in ALL_VALID_PAIRS} Distance[i,j]*travel[i,j] = 0.3748
+
+:                           Timevalue[i] Timevalue[j]    :=
+EmrldNc        HOME_NEU_END    0.013118    10
+HOME_NEU_START EmrldNc         0            0.013118
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES} travel[src,dst] = 2
+
+ampl: display DAYS;
+
+DAYS is not defined
+context:  display  >>> DAYS; <<< 
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 0.3748
+4 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 11 (offset 184):
+	DAYS is not defined
+context:  display  >>> DAYS; <<< 
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 19 (offset 356):
+	travel needs 3 subscript(s), not 2.
+context:  [ALL_PLACES, PLACES], travel  >>> ; <<< 
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 21 (offset 374):
+	travelled is not a table.
+context:  write table  >>> travelled; <<< 
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 24 (offset 457):
+	travel needs 3 subscripts, not 2
+context:  display {(i,j) in ALL_PLACES cross ALL_PLACES :  >>> travel[i,j] <<<  = 1};
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 19 (offset 356):
+	travel needs 3 subscript(s), not 2.
+context:  [ALL_PLACES, PLACES], travel  >>> ; <<< 
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 21 (offset 374):
+	travelled is not a table.
+context:  write table  >>> travelled; <<< 
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnAth,NwEngHM,1)
+(NwEngHM,ThBstnP,1)          (BstnBll,ArlngSC,1)
+(BstnOpH,BstnAth,1)          (ArlngSC,BstnOpH,1)
+(Mrrt_CH,ThPOoEG,1)          (NwEnCJH,Mrrt_CH,1)
+(ThBstnP,EmrldNc,1)          (EmrldNc,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1);
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 27 (offset 583):
+	3 indices for set of dimen 2
+context:  display {d in DAYS} sum { (i,j,d) in ALL_VALID_PAIRS  >>> } <<<  Distance[i,j]*travel[i,j,d];
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnAth,NwEngHM,1)
+(NwEngHM,ThBstnP,1)          (BstnBll,ArlngSC,1)
+(BstnOpH,BstnAth,1)          (ArlngSC,BstnOpH,1)
+(Mrrt_CH,ThPOoEG,1)          (NwEnCJH,Mrrt_CH,1)
+(ThBstnP,EmrldNc,1)          (EmrldNc,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1);
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  7.0926
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 30 (offset 742):
+	2 indices for set of dimen 3
+context:  display {(i,j) in ALL_PLACES cross ALL_PLACES cross  >>> DAYS:  <<< travel[i,j,d] = 1} (Timevalue[i,d] ,Timevalue[j,d]);
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 30 (offset 748):
+	d is undefined
+context:  display {(i,j) in ALL_PLACES cross ALL_PLACES cross DAYS:  >>> travel[i,j,d] <<<  = 1} (Timevalue[i,d] ,Timevalue[j,d]);
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 30 (offset 767):
+	d is undefined
+context:  display {(i,j) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] = 1}  >>> (Timevalue[i,d] <<<  ,Timevalue[j,d]);
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 30 (offset 783):
+	d is undefined
+context:  display {(i,j) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] = 1} (Timevalue[i,d]  >>> ,Timevalue[j,d] <<< );
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnAth,NwEngHM,1)
+(NwEngHM,ThBstnP,1)          (BstnBll,ArlngSC,1)
+(BstnOpH,BstnAth,1)          (ArlngSC,BstnOpH,1)
+(Mrrt_CH,ThPOoEG,1)          (NwEnCJH,Mrrt_CH,1)
+(ThBstnP,EmrldNc,1)          (EmrldNc,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1);
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  7.0926
+;
+
+:                             Timevalue[i,d] Timevalue[j,d]    :=
+ArlngSC        BstnOpH      1     3.99631        4.7788
+BstnAth        NwEngHM      1     5.79747        6.82462
+BstnBll        ArlngSC      1     2.96486        3.99631
+BstnOpH        BstnAth      1     4.7788         5.79747
+EmrldNc        HOME_NEU_END 1     8.98688       10
+HOME_NEU_START NwEnCJH      1     0              0.016254
+Mrrt_CH        ThPOoEG      1     1.1648         2.17847
+NwEnCJH        Mrrt_CH      1     0.016254       1.1648
+NwEngHM        ThBstnP      1     6.82462        7.96021
+ThBstnP        EmrldNc      1     7.96021        8.98688
+ThPOoEG        BstnBll      1     2.17847        2.96486
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 33 (offset 907):
+	travel needs 3 subscripts, not 2
+context:  display sum {src in ALL_PLACES, dst in ALL_PLACES}  travel[src,  >>> dst] <<<  ;
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnAth,NwEngHM,1)
+(NwEngHM,ThBstnP,1)          (BstnBll,ArlngSC,1)
+(BstnOpH,BstnAth,1)          (ArlngSC,BstnOpH,1)
+(Mrrt_CH,ThPOoEG,1)          (NwEnCJH,Mrrt_CH,1)
+(ThBstnP,EmrldNc,1)          (EmrldNc,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1);
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  7.0926
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 30 (offset 710):
+	syntax error
+context:  display {d in DAYS}  >>> { <<< (i,j) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] = 1} (Timevalue[i,d] ,Timevalue[j,d]);
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnAth,NwEngHM,1)
+(NwEngHM,ThBstnP,1)          (BstnBll,ArlngSC,1)
+(BstnOpH,BstnAth,1)          (ArlngSC,BstnOpH,1)
+(Mrrt_CH,ThPOoEG,1)          (NwEnCJH,Mrrt_CH,1)
+(ThBstnP,EmrldNc,1)          (EmrldNc,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1);
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  7.0926
+;
+
+:                             Timevalue[i,d] Timevalue[j,d]    :=
+ArlngSC        BstnOpH      1     3.99631        4.7788
+BstnAth        NwEngHM      1     5.79747        6.82462
+BstnBll        ArlngSC      1     2.96486        3.99631
+BstnOpH        BstnAth      1     4.7788         5.79747
+EmrldNc        HOME_NEU_END 1     8.98688       10
+HOME_NEU_START NwEnCJH      1     0              0.016254
+Mrrt_CH        ThPOoEG      1     1.1648         2.17847
+NwEnCJH        Mrrt_CH      1     0.016254       1.1648
+NwEngHM        ThBstnP      1     6.82462        7.96021
+ThBstnP        EmrldNc      1     7.96021        8.98688
+ThPOoEG        BstnBll      1     2.17847        2.96486
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 33 (offset 907):
+	travel needs 3 subscripts, not 2
+context:  display sum {src in ALL_PLACES, dst in ALL_PLACES}  travel[src,  >>> dst] <<<  ;
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+377 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnAth,NwEngHM,1)
+(NwEngHM,ThBstnP,1)          (BstnBll,ArlngSC,1)
+(BstnOpH,BstnAth,1)          (ArlngSC,BstnOpH,1)
+(Mrrt_CH,ThPOoEG,1)          (NwEnCJH,Mrrt_CH,1)
+(ThBstnP,EmrldNc,1)          (EmrldNc,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1);
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  7.0926
+;
+
+:                                d  Timevalue[i,d] Timevalue[j,d]    :=
+ArlngSC        BstnOpH      1   1       3.99631        4.7788
+BstnAth        NwEngHM      1   1       5.79747        6.82462
+BstnBll        ArlngSC      1   1       2.96486        3.99631
+BstnOpH        BstnAth      1   1       4.7788         5.79747
+EmrldNc        HOME_NEU_END 1   1       8.98688       10
+HOME_NEU_START NwEnCJH      1   1       0              0.016254
+Mrrt_CH        ThPOoEG      1   1       1.1648         2.17847
+NwEnCJH        Mrrt_CH      1   1       0.016254       1.1648
+NwEngHM        ThBstnP      1   1       6.82462        7.96021
+ThBstnP        EmrldNc      1   1       7.96021        8.98688
+ThPOoEG        BstnBll      1   1       2.17847        2.96486
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 33 (offset 910):
+	travel needs 3 subscripts, not 2
+context:  display sum {src in ALL_PLACES, dst in ALL_PLACES}  travel[src,  >>> dst] <<<  ;
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: infeasible
+No primal variables returned.
+set DAYS := 1 2;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+ [*,*,2]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+2  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1   2    :=
+AnaHACM   0   0
+ArlngSC   0   0
+ArnldAr   0   0
+BackBay   0   0
+BstnAth   0   0
+BstnBll   0   0
+BstnOpH   0   0
+BstnPbG   0   0
+BstnPbL   0   0
+BstnWnr   0   0
+CmmnwAM   0   0
+DwnstCH   0   0
+EmrldNc   0   0
+EtDaMGH   0   0
+FnwyPrk   0   0
+FrtWrrn   0   0
+JhFKPML   0   0
+LttBIaL   0   0
+MFABstn   0   0
+Mrrt_CH   0   0
+MsmofFA   0   0
+MtrplWM   0   0
+NrthEnd   0   0
+NwEnCJH   0   0
+NwEngHM   0   0
+PirsPrk   0   0
+SmlAdmB   0   0
+ThBstnP   0   0
+ThPOoEG   0   0
+ThmpsnI   0   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  := ; # empty
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  0
+2  0
+;
+
+:   d Timevalue[i,d] Timevalue[j,d]    :=
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 33 (offset 910):
+	travel needs 3 subscripts, not 2
+context:  display sum {src in ALL_PLACES, dst in ALL_PLACES}  travel[src,  >>> dst] <<<  ;
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: infeasible
+No primal variables returned.
+set DAYS := 1 2;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+ [*,*,2]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+2  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1   2    :=
+AnaHACM   0   0
+ArlngSC   0   0
+ArnldAr   0   0
+BackBay   0   0
+BstnAth   0   0
+BstnBll   0   0
+BstnOpH   0   0
+BstnPbG   0   0
+BstnPbL   0   0
+BstnWnr   0   0
+CmmnwAM   0   0
+DwnstCH   0   0
+EmrldNc   0   0
+EtDaMGH   0   0
+FnwyPrk   0   0
+FrtWrrn   0   0
+JhFKPML   0   0
+LttBIaL   0   0
+MFABstn   0   0
+Mrrt_CH   0   0
+MsmofFA   0   0
+MtrplWM   0   0
+NrthEnd   0   0
+NwEnCJH   0   0
+NwEngHM   0   0
+PirsPrk   0   0
+SmlAdmB   0   0
+ThBstnP   0   0
+ThPOoEG   0   0
+ThmpsnI   0   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  := ; # empty
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  0
+2  0
+;
+
+:   d Timevalue[i,d] Timevalue[j,d]    :=
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES, d in DAYS} travel[src,dst,d] = 0
+
+ampl: model 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.mod';
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.mod, line 12 (offset 549):
+	HOMEBASE_START is already defined
+context:  set  >>> HOMEBASE_START; <<< 
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: infeasible
+No primal variables returned.
+set DAYS := 1 2;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+ [*,*,2]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+2  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1   2    :=
+AnaHACM   0   0
+ArlngSC   0   0
+ArnldAr   0   0
+BackBay   0   0
+BstnAth   0   0
+BstnBll   0   0
+BstnOpH   0   0
+BstnPbG   0   0
+BstnPbL   0   0
+BstnWnr   0   0
+CmmnwAM   0   0
+DwnstCH   0   0
+EmrldNc   0   0
+EtDaMGH   0   0
+FnwyPrk   0   0
+FrtWrrn   0   0
+JhFKPML   0   0
+LttBIaL   0   0
+MFABstn   0   0
+Mrrt_CH   0   0
+MsmofFA   0   0
+MtrplWM   0   0
+NrthEnd   0   0
+NwEnCJH   0   0
+NwEngHM   0   0
+PirsPrk   0   0
+SmlAdmB   0   0
+ThBstnP   0   0
+ThPOoEG   0   0
+ThmpsnI   0   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  := ; # empty
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  0
+2  0
+;
+
+:   d Timevalue[i,d] Timevalue[j,d]    :=
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES, d in DAYS} travel[src,dst,d] = 0
+
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+314 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnBll,ArlngSC,1)
+(NwEngHM,ThPOoEG,1)          (ArlngSC,BstnOpH,1)
+(BstnOpH,EmrldNc,1)          (NwEnCJH,BstnAth,1)
+(Mrrt_CH,NwEngHM,1)          (MFABstn,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1)          (EmrldNc,MFABstn,1)
+(BstnAth,Mrrt_CH,1);
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  6.367
+;
+
+:                                d  Timevalue[i,d] Timevalue[j,d]    :=
+ArlngSC        BstnOpH      1   1       6.06468        6.84717
+BstnAth        Mrrt_CH      1   1       1.12967        2.16537
+BstnBll        ArlngSC      1   1       5.03322        6.06468
+BstnOpH        EmrldNc      1   1       6.84717        7.96994
+EmrldNc        MFABstn      1   1       7.96994        8.98163
+HOME_NEU_START NwEnCJH      1   1       0              0.016254
+MFABstn        HOME_NEU_END 1   1       8.98163       10
+Mrrt_CH        NwEngHM      1   1       2.16537        3.18391
+NwEnCJH        BstnAth      1   1       0.016254       1.12967
+NwEngHM        ThPOoEG      1   1       3.18391        4.19253
+ThPOoEG        BstnBll      1   1       4.19253        5.03322
+;
+
+sum{src in ALL_PLACES, dst in ALL_PLACES, d in DAYS} travel[src,dst,d] = 11
+
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+314 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 23 (offset 394):
+	missing "
+context:   >>> display "****** VISITED ARCS ********** <<< 
+
+C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run, line 25 (offset 456):
+	syntax error
+context:   >>> display  <<< {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS : travel[i,j,d] = 1};
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+314 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+;
+
+TotalCost = 0
+
+TimeSpent [*] :=
+1  0
+;
+
+InDegreeOutDegreeMatch [*,*]
+:         1    :=
+AnaHACM   0
+ArlngSC   0
+ArnldAr   0
+BackBay   0
+BstnAth   0
+BstnBll   0
+BstnOpH   0
+BstnPbG   0
+BstnPbL   0
+BstnWnr   0
+CmmnwAM   0
+DwnstCH   0
+EmrldNc   0
+EtDaMGH   0
+FnwyPrk   0
+FrtWrrn   0
+JhFKPML   0
+LttBIaL   0
+MFABstn   0
+Mrrt_CH   0
+MsmofFA   0
+MtrplWM   0
+NrthEnd   0
+NwEnCJH   0
+NwEngHM   0
+PirsPrk   0
+SmlAdmB   0
+ThBstnP   0
+ThPOoEG   0
+ThmpsnI   0
+;
+
+'****** VISITED ARCS **********' = '****** VISITED ARCS **********'
+
+set {(i,j,d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] == 1}  :=
+(HOME_NEU_START,NwEnCJH,1)   (BstnBll,ArlngSC,1)
+(NwEngHM,ThPOoEG,1)          (ArlngSC,BstnOpH,1)
+(BstnOpH,EmrldNc,1)          (NwEnCJH,BstnAth,1)
+(Mrrt_CH,NwEngHM,1)          (MFABstn,HOME_NEU_END,1)
+(ThPOoEG,BstnBll,1)          (EmrldNc,MFABstn,1)
+(BstnAth,Mrrt_CH,1);
+
+'****** DISTANCE COVERED **********' = '****** DISTANCE COVERED **********'
+
+sum{(i,j,d) in ALL_VALID_PAIRS cross DAYS} Distance[i,j]*travel[i,j,d] [*] :=
+1  6.367
+;
+
+'****** TIMEVALUE TABLES **********' = '****** TIMEVALUE TABLES **********'
+
+:                                d  Timevalue[i,d] Timevalue[j,d]    :=
+ArlngSC        BstnOpH      1   1       6.06468        6.84717
+BstnAth        Mrrt_CH      1   1       1.12967        2.16537
+BstnBll        ArlngSC      1   1       5.03322        6.06468
+BstnOpH        EmrldNc      1   1       6.84717        7.96994
+EmrldNc        MFABstn      1   1       7.96994        8.98163
+HOME_NEU_START NwEnCJH      1   1       0              0.016254
+MFABstn        HOME_NEU_END 1   1       8.98163       10
+Mrrt_CH        NwEngHM      1   1       2.16537        3.18391
+NwEnCJH        BstnAth      1   1       0.016254       1.12967
+NwEngHM        ThPOoEG      1   1       3.18391        4.19253
+ThPOoEG        BstnBll      1   1       4.19253        5.03322
+;
+
+'****** NUMBER OF PLACES VISITED **********' =
+'****** NUMBER OF PLACES VISITED **********'
+
+sum{src in ALL_PLACES, dst in ALL_PLACES, d in DAYS} travel[src,dst,d] = 11
+
+ampl: include 'C:\Users\JANARDHANAN.A\Documents\GitHub\BostonSightseeing\Optimization\BostonSightseeing_v5.run';
+Gurobi 8.1.0: optimal solution; objective 11
+314 simplex iterations
+1 branch-and-cut nodes
+No dual variables returned.
+set DAYS := 1;
+
+travel [*,*,1]
+# $1 = AnaHACM
+# $2 = ArlngSC
+# $3 = ArnldAr
+# $4 = BackBay
+# $5 = BstnAth
+# $6 = BstnBll
+# $7 = BstnOpH
+# $8 = BstnPbG
+# $9 = BstnPbL
+# $10 = BstnWnr
+# $11 = CmmnwAM
+# $12 = DwnstCH
+# $13 = EmrldNc
+# $14 = EtDaMGH
+# $15 = FnwyPrk
+# $16 = FrtWrrn
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CmmnwAM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+DwnstCH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EmrldNc          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+EtDaMGH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FnwyPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+FrtWrrn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_END     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+HOME_NEU_START   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+JhFKPML          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+LttBIaL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MFABstn          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Mrrt_CH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MsmofFA          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+MtrplWM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NrthEnd          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+NwEnCJH          0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0
+NwEngHM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+PirsPrk          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+SmlAdmB          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThBstnP          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ThPOoEG          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+ThmpsnI          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+# $1 = HOME_NEU_END
+# $2 = HOME_NEU_START
+# $3 = JhFKPML
+# $4 = LttBIaL
+# $5 = MFABstn
+# $6 = Mrrt_CH
+# $7 = MsmofFA
+# $8 = MtrplWM
+# $9 = NrthEnd
+# $10 = NwEnCJH
+# $11 = NwEngHM
+# $12 = PirsPrk
+# $13 = SmlAdmB
+# $14 = ThBstnP
+# $15 = ThPOoEG
+# $16 = ThmpsnI
+:               $1  $2  $3  $4  $5  $6  $7  $8  $9 $10 $11 $12 $13 $14 $15 $16 :=
+AnaHACM          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArlngSC          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+ArnldAr          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BackBay          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnAth          0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+BstnBll          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnOpH          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbG          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnPbL          0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+BstnWnr          0   0   0   0   0  

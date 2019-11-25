@@ -1,1026 +1,1026 @@
-ampl.tab 2 1
-ALL_PLACES	PLACES	travel
-HOME_NEU_START	HOME_NEU_START	0
-HOME_NEU_START	FnwyPrk	0
-HOME_NEU_START	MsmofFA	0
-HOME_NEU_START	NrthEnd	0
-HOME_NEU_START	JhFKPML	0
-HOME_NEU_START	BstnPbG	0
-HOME_NEU_START	SmlAdmB	0
-HOME_NEU_START	BstnPbL	0
-HOME_NEU_START	BackBay	0
-HOME_NEU_START	NwEngHM	0
-HOME_NEU_START	ArnldAr	0
-HOME_NEU_START	BstnOpH	0
-HOME_NEU_START	Mrrt_CH	0
-HOME_NEU_START	ThBstnP	0
-HOME_NEU_START	CmmnwAM	0
-HOME_NEU_START	ThPOoEG	0
-HOME_NEU_START	DwnstCH	0
-HOME_NEU_START	BstnAth	0
-HOME_NEU_START	EtDaMGH	0
-HOME_NEU_START	BstnWnr	0
-HOME_NEU_START	MtrplWM	0
-HOME_NEU_START	BstnBll	0
-HOME_NEU_START	PirsPrk	0
-HOME_NEU_START	AnaHACM	0
-HOME_NEU_START	ArlngSC	0
-HOME_NEU_START	LttBIaL	0
-HOME_NEU_START	NwEnCJH	0
-HOME_NEU_START	MFABstn	0
-HOME_NEU_START	FrtWrrn	0
-HOME_NEU_START	ThmpsnI	0
-HOME_NEU_START	EmrldNc	1
-HOME_NEU_START	HOME_NEU_END	0
-FnwyPrk	HOME_NEU_START	0
-FnwyPrk	FnwyPrk	0
-FnwyPrk	MsmofFA	0
-FnwyPrk	NrthEnd	0
-FnwyPrk	JhFKPML	0
-FnwyPrk	BstnPbG	0
-FnwyPrk	SmlAdmB	0
-FnwyPrk	BstnPbL	0
-FnwyPrk	BackBay	0
-FnwyPrk	NwEngHM	0
-FnwyPrk	ArnldAr	0
-FnwyPrk	BstnOpH	0
-FnwyPrk	Mrrt_CH	0
-FnwyPrk	ThBstnP	0
-FnwyPrk	CmmnwAM	0
-FnwyPrk	ThPOoEG	0
-FnwyPrk	DwnstCH	0
-FnwyPrk	BstnAth	0
-FnwyPrk	EtDaMGH	0
-FnwyPrk	BstnWnr	0
-FnwyPrk	MtrplWM	0
-FnwyPrk	BstnBll	0
-FnwyPrk	PirsPrk	0
-FnwyPrk	AnaHACM	0
-FnwyPrk	ArlngSC	0
-FnwyPrk	LttBIaL	0
-FnwyPrk	NwEnCJH	0
-FnwyPrk	MFABstn	0
-FnwyPrk	FrtWrrn	0
-FnwyPrk	ThmpsnI	0
-FnwyPrk	EmrldNc	0
-FnwyPrk	HOME_NEU_END	0
-MsmofFA	HOME_NEU_START	0
-MsmofFA	FnwyPrk	0
-MsmofFA	MsmofFA	0
-MsmofFA	NrthEnd	0
-MsmofFA	JhFKPML	0
-MsmofFA	BstnPbG	0
-MsmofFA	SmlAdmB	0
-MsmofFA	BstnPbL	0
-MsmofFA	BackBay	0
-MsmofFA	NwEngHM	0
-MsmofFA	ArnldAr	0
-MsmofFA	BstnOpH	0
-MsmofFA	Mrrt_CH	0
-MsmofFA	ThBstnP	0
-MsmofFA	CmmnwAM	0
-MsmofFA	ThPOoEG	0
-MsmofFA	DwnstCH	0
-MsmofFA	BstnAth	0
-MsmofFA	EtDaMGH	0
-MsmofFA	BstnWnr	0
-MsmofFA	MtrplWM	0
-MsmofFA	BstnBll	0
-MsmofFA	PirsPrk	0
-MsmofFA	AnaHACM	0
-MsmofFA	ArlngSC	0
-MsmofFA	LttBIaL	0
-MsmofFA	NwEnCJH	0
-MsmofFA	MFABstn	0
-MsmofFA	FrtWrrn	0
-MsmofFA	ThmpsnI	0
-MsmofFA	EmrldNc	0
-MsmofFA	HOME_NEU_END	0
-NrthEnd	HOME_NEU_START	0
-NrthEnd	FnwyPrk	0
-NrthEnd	MsmofFA	0
-NrthEnd	NrthEnd	0
-NrthEnd	JhFKPML	0
-NrthEnd	BstnPbG	0
-NrthEnd	SmlAdmB	0
-NrthEnd	BstnPbL	0
-NrthEnd	BackBay	0
-NrthEnd	NwEngHM	0
-NrthEnd	ArnldAr	0
-NrthEnd	BstnOpH	0
-NrthEnd	Mrrt_CH	0
-NrthEnd	ThBstnP	0
-NrthEnd	CmmnwAM	0
-NrthEnd	ThPOoEG	0
-NrthEnd	DwnstCH	0
-NrthEnd	BstnAth	0
-NrthEnd	EtDaMGH	0
-NrthEnd	BstnWnr	0
-NrthEnd	MtrplWM	0
-NrthEnd	BstnBll	0
-NrthEnd	PirsPrk	0
-NrthEnd	AnaHACM	0
-NrthEnd	ArlngSC	0
-NrthEnd	LttBIaL	0
-NrthEnd	NwEnCJH	0
-NrthEnd	MFABstn	0
-NrthEnd	FrtWrrn	0
-NrthEnd	ThmpsnI	0
-NrthEnd	EmrldNc	0
-NrthEnd	HOME_NEU_END	0
-JhFKPML	HOME_NEU_START	0
-JhFKPML	FnwyPrk	0
-JhFKPML	MsmofFA	0
-JhFKPML	NrthEnd	0
-JhFKPML	JhFKPML	0
-JhFKPML	BstnPbG	0
-JhFKPML	SmlAdmB	0
-JhFKPML	BstnPbL	0
-JhFKPML	BackBay	0
-JhFKPML	NwEngHM	0
-JhFKPML	ArnldAr	0
-JhFKPML	BstnOpH	0
-JhFKPML	Mrrt_CH	0
-JhFKPML	ThBstnP	0
-JhFKPML	CmmnwAM	0
-JhFKPML	ThPOoEG	0
-JhFKPML	DwnstCH	0
-JhFKPML	BstnAth	0
-JhFKPML	EtDaMGH	0
-JhFKPML	BstnWnr	0
-JhFKPML	MtrplWM	0
-JhFKPML	BstnBll	0
-JhFKPML	PirsPrk	0
-JhFKPML	AnaHACM	0
-JhFKPML	ArlngSC	0
-JhFKPML	LttBIaL	0
-JhFKPML	NwEnCJH	0
-JhFKPML	MFABstn	0
-JhFKPML	FrtWrrn	0
-JhFKPML	ThmpsnI	0
-JhFKPML	EmrldNc	0
-JhFKPML	HOME_NEU_END	0
-BstnPbG	HOME_NEU_START	0
-BstnPbG	FnwyPrk	0
-BstnPbG	MsmofFA	0
-BstnPbG	NrthEnd	0
-BstnPbG	JhFKPML	0
-BstnPbG	BstnPbG	0
-BstnPbG	SmlAdmB	0
-BstnPbG	BstnPbL	0
-BstnPbG	BackBay	0
-BstnPbG	NwEngHM	0
-BstnPbG	ArnldAr	0
-BstnPbG	BstnOpH	0
-BstnPbG	Mrrt_CH	0
-BstnPbG	ThBstnP	0
-BstnPbG	CmmnwAM	0
-BstnPbG	ThPOoEG	0
-BstnPbG	DwnstCH	0
-BstnPbG	BstnAth	0
-BstnPbG	EtDaMGH	0
-BstnPbG	BstnWnr	0
-BstnPbG	MtrplWM	0
-BstnPbG	BstnBll	0
-BstnPbG	PirsPrk	0
-BstnPbG	AnaHACM	0
-BstnPbG	ArlngSC	0
-BstnPbG	LttBIaL	0
-BstnPbG	NwEnCJH	0
-BstnPbG	MFABstn	0
-BstnPbG	FrtWrrn	0
-BstnPbG	ThmpsnI	0
-BstnPbG	EmrldNc	0
-BstnPbG	HOME_NEU_END	0
-SmlAdmB	HOME_NEU_START	0
-SmlAdmB	FnwyPrk	0
-SmlAdmB	MsmofFA	0
-SmlAdmB	NrthEnd	0
-SmlAdmB	JhFKPML	0
-SmlAdmB	BstnPbG	0
-SmlAdmB	SmlAdmB	0
-SmlAdmB	BstnPbL	0
-SmlAdmB	BackBay	0
-SmlAdmB	NwEngHM	0
-SmlAdmB	ArnldAr	0
-SmlAdmB	BstnOpH	0
-SmlAdmB	Mrrt_CH	0
-SmlAdmB	ThBstnP	0
-SmlAdmB	CmmnwAM	0
-SmlAdmB	ThPOoEG	0
-SmlAdmB	DwnstCH	0
-SmlAdmB	BstnAth	0
-SmlAdmB	EtDaMGH	0
-SmlAdmB	BstnWnr	0
-SmlAdmB	MtrplWM	0
-SmlAdmB	BstnBll	0
-SmlAdmB	PirsPrk	0
-SmlAdmB	AnaHACM	0
-SmlAdmB	ArlngSC	0
-SmlAdmB	LttBIaL	0
-SmlAdmB	NwEnCJH	0
-SmlAdmB	MFABstn	0
-SmlAdmB	FrtWrrn	0
-SmlAdmB	ThmpsnI	0
-SmlAdmB	EmrldNc	0
-SmlAdmB	HOME_NEU_END	0
-BstnPbL	HOME_NEU_START	0
-BstnPbL	FnwyPrk	0
-BstnPbL	MsmofFA	0
-BstnPbL	NrthEnd	0
-BstnPbL	JhFKPML	0
-BstnPbL	BstnPbG	0
-BstnPbL	SmlAdmB	0
-BstnPbL	BstnPbL	0
-BstnPbL	BackBay	0
-BstnPbL	NwEngHM	0
-BstnPbL	ArnldAr	0
-BstnPbL	BstnOpH	0
-BstnPbL	Mrrt_CH	0
-BstnPbL	ThBstnP	0
-BstnPbL	CmmnwAM	0
-BstnPbL	ThPOoEG	0
-BstnPbL	DwnstCH	0
-BstnPbL	BstnAth	0
-BstnPbL	EtDaMGH	0
-BstnPbL	BstnWnr	0
-BstnPbL	MtrplWM	0
-BstnPbL	BstnBll	0
-BstnPbL	PirsPrk	0
-BstnPbL	AnaHACM	0
-BstnPbL	ArlngSC	0
-BstnPbL	LttBIaL	0
-BstnPbL	NwEnCJH	0
-BstnPbL	MFABstn	0
-BstnPbL	FrtWrrn	0
-BstnPbL	ThmpsnI	0
-BstnPbL	EmrldNc	0
-BstnPbL	HOME_NEU_END	0
-BackBay	HOME_NEU_START	0
-BackBay	FnwyPrk	0
-BackBay	MsmofFA	0
-BackBay	NrthEnd	0
-BackBay	JhFKPML	0
-BackBay	BstnPbG	0
-BackBay	SmlAdmB	0
-BackBay	BstnPbL	0
-BackBay	BackBay	0
-BackBay	NwEngHM	0
-BackBay	ArnldAr	0
-BackBay	BstnOpH	0
-BackBay	Mrrt_CH	0
-BackBay	ThBstnP	0
-BackBay	CmmnwAM	0
-BackBay	ThPOoEG	0
-BackBay	DwnstCH	0
-BackBay	BstnAth	0
-BackBay	EtDaMGH	0
-BackBay	BstnWnr	0
-BackBay	MtrplWM	0
-BackBay	BstnBll	0
-BackBay	PirsPrk	0
-BackBay	AnaHACM	0
-BackBay	ArlngSC	0
-BackBay	LttBIaL	0
-BackBay	NwEnCJH	0
-BackBay	MFABstn	0
-BackBay	FrtWrrn	0
-BackBay	ThmpsnI	0
-BackBay	EmrldNc	0
-BackBay	HOME_NEU_END	0
-NwEngHM	HOME_NEU_START	0
-NwEngHM	FnwyPrk	0
-NwEngHM	MsmofFA	0
-NwEngHM	NrthEnd	0
-NwEngHM	JhFKPML	0
-NwEngHM	BstnPbG	0
-NwEngHM	SmlAdmB	0
-NwEngHM	BstnPbL	0
-NwEngHM	BackBay	0
-NwEngHM	NwEngHM	0
-NwEngHM	ArnldAr	0
-NwEngHM	BstnOpH	0
-NwEngHM	Mrrt_CH	0
-NwEngHM	ThBstnP	0
-NwEngHM	CmmnwAM	0
-NwEngHM	ThPOoEG	0
-NwEngHM	DwnstCH	0
-NwEngHM	BstnAth	0
-NwEngHM	EtDaMGH	0
-NwEngHM	BstnWnr	0
-NwEngHM	MtrplWM	0
-NwEngHM	BstnBll	0
-NwEngHM	PirsPrk	0
-NwEngHM	AnaHACM	0
-NwEngHM	ArlngSC	0
-NwEngHM	LttBIaL	0
-NwEngHM	NwEnCJH	0
-NwEngHM	MFABstn	0
-NwEngHM	FrtWrrn	0
-NwEngHM	ThmpsnI	0
-NwEngHM	EmrldNc	0
-NwEngHM	HOME_NEU_END	0
-ArnldAr	HOME_NEU_START	0
-ArnldAr	FnwyPrk	0
-ArnldAr	MsmofFA	0
-ArnldAr	NrthEnd	0
-ArnldAr	JhFKPML	0
-ArnldAr	BstnPbG	0
-ArnldAr	SmlAdmB	0
-ArnldAr	BstnPbL	0
-ArnldAr	BackBay	0
-ArnldAr	NwEngHM	0
-ArnldAr	ArnldAr	0
-ArnldAr	BstnOpH	0
-ArnldAr	Mrrt_CH	0
-ArnldAr	ThBstnP	0
-ArnldAr	CmmnwAM	0
-ArnldAr	ThPOoEG	0
-ArnldAr	DwnstCH	0
-ArnldAr	BstnAth	0
-ArnldAr	EtDaMGH	0
-ArnldAr	BstnWnr	0
-ArnldAr	MtrplWM	0
-ArnldAr	BstnBll	0
-ArnldAr	PirsPrk	0
-ArnldAr	AnaHACM	0
-ArnldAr	ArlngSC	0
-ArnldAr	LttBIaL	0
-ArnldAr	NwEnCJH	0
-ArnldAr	MFABstn	0
-ArnldAr	FrtWrrn	0
-ArnldAr	ThmpsnI	0
-ArnldAr	EmrldNc	0
-ArnldAr	HOME_NEU_END	0
-BstnOpH	HOME_NEU_START	0
-BstnOpH	FnwyPrk	0
-BstnOpH	MsmofFA	0
-BstnOpH	NrthEnd	0
-BstnOpH	JhFKPML	0
-BstnOpH	BstnPbG	0
-BstnOpH	SmlAdmB	0
-BstnOpH	BstnPbL	0
-BstnOpH	BackBay	0
-BstnOpH	NwEngHM	0
-BstnOpH	ArnldAr	0
-BstnOpH	BstnOpH	0
-BstnOpH	Mrrt_CH	0
-BstnOpH	ThBstnP	0
-BstnOpH	CmmnwAM	0
-BstnOpH	ThPOoEG	0
-BstnOpH	DwnstCH	0
-BstnOpH	BstnAth	0
-BstnOpH	EtDaMGH	0
-BstnOpH	BstnWnr	0
-BstnOpH	MtrplWM	0
-BstnOpH	BstnBll	0
-BstnOpH	PirsPrk	0
-BstnOpH	AnaHACM	0
-BstnOpH	ArlngSC	0
-BstnOpH	LttBIaL	0
-BstnOpH	NwEnCJH	0
-BstnOpH	MFABstn	0
-BstnOpH	FrtWrrn	0
-BstnOpH	ThmpsnI	0
-BstnOpH	EmrldNc	0
-BstnOpH	HOME_NEU_END	0
-Mrrt_CH	HOME_NEU_START	0
-Mrrt_CH	FnwyPrk	0
-Mrrt_CH	MsmofFA	0
-Mrrt_CH	NrthEnd	0
-Mrrt_CH	JhFKPML	0
-Mrrt_CH	BstnPbG	0
-Mrrt_CH	SmlAdmB	0
-Mrrt_CH	BstnPbL	0
-Mrrt_CH	BackBay	0
-Mrrt_CH	NwEngHM	0
-Mrrt_CH	ArnldAr	0
-Mrrt_CH	BstnOpH	0
-Mrrt_CH	Mrrt_CH	0
-Mrrt_CH	ThBstnP	0
-Mrrt_CH	CmmnwAM	0
-Mrrt_CH	ThPOoEG	0
-Mrrt_CH	DwnstCH	0
-Mrrt_CH	BstnAth	0
-Mrrt_CH	EtDaMGH	0
-Mrrt_CH	BstnWnr	0
-Mrrt_CH	MtrplWM	0
-Mrrt_CH	BstnBll	0
-Mrrt_CH	PirsPrk	0
-Mrrt_CH	AnaHACM	0
-Mrrt_CH	ArlngSC	0
-Mrrt_CH	LttBIaL	0
-Mrrt_CH	NwEnCJH	0
-Mrrt_CH	MFABstn	0
-Mrrt_CH	FrtWrrn	0
-Mrrt_CH	ThmpsnI	0
-Mrrt_CH	EmrldNc	0
-Mrrt_CH	HOME_NEU_END	0
-ThBstnP	HOME_NEU_START	0
-ThBstnP	FnwyPrk	0
-ThBstnP	MsmofFA	0
-ThBstnP	NrthEnd	0
-ThBstnP	JhFKPML	0
-ThBstnP	BstnPbG	0
-ThBstnP	SmlAdmB	0
-ThBstnP	BstnPbL	0
-ThBstnP	BackBay	0
-ThBstnP	NwEngHM	0
-ThBstnP	ArnldAr	0
-ThBstnP	BstnOpH	0
-ThBstnP	Mrrt_CH	0
-ThBstnP	ThBstnP	0
-ThBstnP	CmmnwAM	0
-ThBstnP	ThPOoEG	0
-ThBstnP	DwnstCH	0
-ThBstnP	BstnAth	0
-ThBstnP	EtDaMGH	0
-ThBstnP	BstnWnr	0
-ThBstnP	MtrplWM	0
-ThBstnP	BstnBll	0
-ThBstnP	PirsPrk	0
-ThBstnP	AnaHACM	0
-ThBstnP	ArlngSC	0
-ThBstnP	LttBIaL	0
-ThBstnP	NwEnCJH	0
-ThBstnP	MFABstn	0
-ThBstnP	FrtWrrn	0
-ThBstnP	ThmpsnI	0
-ThBstnP	EmrldNc	0
-ThBstnP	HOME_NEU_END	0
-CmmnwAM	HOME_NEU_START	0
-CmmnwAM	FnwyPrk	0
-CmmnwAM	MsmofFA	0
-CmmnwAM	NrthEnd	0
-CmmnwAM	JhFKPML	0
-CmmnwAM	BstnPbG	0
-CmmnwAM	SmlAdmB	0
-CmmnwAM	BstnPbL	0
-CmmnwAM	BackBay	0
-CmmnwAM	NwEngHM	0
-CmmnwAM	ArnldAr	0
-CmmnwAM	BstnOpH	0
-CmmnwAM	Mrrt_CH	0
-CmmnwAM	ThBstnP	0
-CmmnwAM	CmmnwAM	0
-CmmnwAM	ThPOoEG	0
-CmmnwAM	DwnstCH	0
-CmmnwAM	BstnAth	0
-CmmnwAM	EtDaMGH	0
-CmmnwAM	BstnWnr	0
-CmmnwAM	MtrplWM	0
-CmmnwAM	BstnBll	0
-CmmnwAM	PirsPrk	0
-CmmnwAM	AnaHACM	0
-CmmnwAM	ArlngSC	0
-CmmnwAM	LttBIaL	0
-CmmnwAM	NwEnCJH	0
-CmmnwAM	MFABstn	0
-CmmnwAM	FrtWrrn	0
-CmmnwAM	ThmpsnI	0
-CmmnwAM	EmrldNc	0
-CmmnwAM	HOME_NEU_END	0
-ThPOoEG	HOME_NEU_START	0
-ThPOoEG	FnwyPrk	0
-ThPOoEG	MsmofFA	0
-ThPOoEG	NrthEnd	0
-ThPOoEG	JhFKPML	0
-ThPOoEG	BstnPbG	0
-ThPOoEG	SmlAdmB	0
-ThPOoEG	BstnPbL	0
-ThPOoEG	BackBay	0
-ThPOoEG	NwEngHM	0
-ThPOoEG	ArnldAr	0
-ThPOoEG	BstnOpH	0
-ThPOoEG	Mrrt_CH	0
-ThPOoEG	ThBstnP	0
-ThPOoEG	CmmnwAM	0
-ThPOoEG	ThPOoEG	0
-ThPOoEG	DwnstCH	0
-ThPOoEG	BstnAth	0
-ThPOoEG	EtDaMGH	0
-ThPOoEG	BstnWnr	0
-ThPOoEG	MtrplWM	0
-ThPOoEG	BstnBll	0
-ThPOoEG	PirsPrk	0
-ThPOoEG	AnaHACM	0
-ThPOoEG	ArlngSC	0
-ThPOoEG	LttBIaL	0
-ThPOoEG	NwEnCJH	0
-ThPOoEG	MFABstn	0
-ThPOoEG	FrtWrrn	0
-ThPOoEG	ThmpsnI	0
-ThPOoEG	EmrldNc	0
-ThPOoEG	HOME_NEU_END	0
-DwnstCH	HOME_NEU_START	0
-DwnstCH	FnwyPrk	0
-DwnstCH	MsmofFA	0
-DwnstCH	NrthEnd	0
-DwnstCH	JhFKPML	0
-DwnstCH	BstnPbG	0
-DwnstCH	SmlAdmB	0
-DwnstCH	BstnPbL	0
-DwnstCH	BackBay	0
-DwnstCH	NwEngHM	0
-DwnstCH	ArnldAr	0
-DwnstCH	BstnOpH	0
-DwnstCH	Mrrt_CH	0
-DwnstCH	ThBstnP	0
-DwnstCH	CmmnwAM	0
-DwnstCH	ThPOoEG	0
-DwnstCH	DwnstCH	0
-DwnstCH	BstnAth	0
-DwnstCH	EtDaMGH	0
-DwnstCH	BstnWnr	0
-DwnstCH	MtrplWM	0
-DwnstCH	BstnBll	0
-DwnstCH	PirsPrk	0
-DwnstCH	AnaHACM	0
-DwnstCH	ArlngSC	0
-DwnstCH	LttBIaL	0
-DwnstCH	NwEnCJH	0
-DwnstCH	MFABstn	0
-DwnstCH	FrtWrrn	0
-DwnstCH	ThmpsnI	0
-DwnstCH	EmrldNc	0
-DwnstCH	HOME_NEU_END	0
-BstnAth	HOME_NEU_START	0
-BstnAth	FnwyPrk	0
-BstnAth	MsmofFA	0
-BstnAth	NrthEnd	0
-BstnAth	JhFKPML	0
-BstnAth	BstnPbG	0
-BstnAth	SmlAdmB	0
-BstnAth	BstnPbL	0
-BstnAth	BackBay	0
-BstnAth	NwEngHM	0
-BstnAth	ArnldAr	0
-BstnAth	BstnOpH	0
-BstnAth	Mrrt_CH	0
-BstnAth	ThBstnP	0
-BstnAth	CmmnwAM	0
-BstnAth	ThPOoEG	0
-BstnAth	DwnstCH	0
-BstnAth	BstnAth	0
-BstnAth	EtDaMGH	0
-BstnAth	BstnWnr	0
-BstnAth	MtrplWM	0
-BstnAth	BstnBll	0
-BstnAth	PirsPrk	0
-BstnAth	AnaHACM	0
-BstnAth	ArlngSC	0
-BstnAth	LttBIaL	0
-BstnAth	NwEnCJH	0
-BstnAth	MFABstn	0
-BstnAth	FrtWrrn	0
-BstnAth	ThmpsnI	0
-BstnAth	EmrldNc	0
-BstnAth	HOME_NEU_END	0
-EtDaMGH	HOME_NEU_START	0
-EtDaMGH	FnwyPrk	0
-EtDaMGH	MsmofFA	0
-EtDaMGH	NrthEnd	0
-EtDaMGH	JhFKPML	0
-EtDaMGH	BstnPbG	0
-EtDaMGH	SmlAdmB	0
-EtDaMGH	BstnPbL	0
-EtDaMGH	BackBay	0
-EtDaMGH	NwEngHM	0
-EtDaMGH	ArnldAr	0
-EtDaMGH	BstnOpH	0
-EtDaMGH	Mrrt_CH	0
-EtDaMGH	ThBstnP	0
-EtDaMGH	CmmnwAM	0
-EtDaMGH	ThPOoEG	0
-EtDaMGH	DwnstCH	0
-EtDaMGH	BstnAth	0
-EtDaMGH	EtDaMGH	0
-EtDaMGH	BstnWnr	0
-EtDaMGH	MtrplWM	0
-EtDaMGH	BstnBll	0
-EtDaMGH	PirsPrk	0
-EtDaMGH	AnaHACM	0
-EtDaMGH	ArlngSC	0
-EtDaMGH	LttBIaL	0
-EtDaMGH	NwEnCJH	0
-EtDaMGH	MFABstn	0
-EtDaMGH	FrtWrrn	0
-EtDaMGH	ThmpsnI	0
-EtDaMGH	EmrldNc	0
-EtDaMGH	HOME_NEU_END	0
-BstnWnr	HOME_NEU_START	0
-BstnWnr	FnwyPrk	0
-BstnWnr	MsmofFA	0
-BstnWnr	NrthEnd	0
-BstnWnr	JhFKPML	0
-BstnWnr	BstnPbG	0
-BstnWnr	SmlAdmB	0
-BstnWnr	BstnPbL	0
-BstnWnr	BackBay	0
-BstnWnr	NwEngHM	0
-BstnWnr	ArnldAr	0
-BstnWnr	BstnOpH	0
-BstnWnr	Mrrt_CH	0
-BstnWnr	ThBstnP	0
-BstnWnr	CmmnwAM	0
-BstnWnr	ThPOoEG	0
-BstnWnr	DwnstCH	0
-BstnWnr	BstnAth	0
-BstnWnr	EtDaMGH	0
-BstnWnr	BstnWnr	0
-BstnWnr	MtrplWM	0
-BstnWnr	BstnBll	0
-BstnWnr	PirsPrk	0
-BstnWnr	AnaHACM	0
-BstnWnr	ArlngSC	0
-BstnWnr	LttBIaL	0
-BstnWnr	NwEnCJH	0
-BstnWnr	MFABstn	0
-BstnWnr	FrtWrrn	0
-BstnWnr	ThmpsnI	0
-BstnWnr	EmrldNc	0
-BstnWnr	HOME_NEU_END	0
-MtrplWM	HOME_NEU_START	0
-MtrplWM	FnwyPrk	0
-MtrplWM	MsmofFA	0
-MtrplWM	NrthEnd	0
-MtrplWM	JhFKPML	0
-MtrplWM	BstnPbG	0
-MtrplWM	SmlAdmB	0
-MtrplWM	BstnPbL	0
-MtrplWM	BackBay	0
-MtrplWM	NwEngHM	0
-MtrplWM	ArnldAr	0
-MtrplWM	BstnOpH	0
-MtrplWM	Mrrt_CH	0
-MtrplWM	ThBstnP	0
-MtrplWM	CmmnwAM	0
-MtrplWM	ThPOoEG	0
-MtrplWM	DwnstCH	0
-MtrplWM	BstnAth	0
-MtrplWM	EtDaMGH	0
-MtrplWM	BstnWnr	0
-MtrplWM	MtrplWM	0
-MtrplWM	BstnBll	0
-MtrplWM	PirsPrk	0
-MtrplWM	AnaHACM	0
-MtrplWM	ArlngSC	0
-MtrplWM	LttBIaL	0
-MtrplWM	NwEnCJH	0
-MtrplWM	MFABstn	0
-MtrplWM	FrtWrrn	0
-MtrplWM	ThmpsnI	0
-MtrplWM	EmrldNc	0
-MtrplWM	HOME_NEU_END	0
-BstnBll	HOME_NEU_START	0
-BstnBll	FnwyPrk	0
-BstnBll	MsmofFA	0
-BstnBll	NrthEnd	0
-BstnBll	JhFKPML	0
-BstnBll	BstnPbG	0
-BstnBll	SmlAdmB	0
-BstnBll	BstnPbL	0
-BstnBll	BackBay	0
-BstnBll	NwEngHM	0
-BstnBll	ArnldAr	0
-BstnBll	BstnOpH	0
-BstnBll	Mrrt_CH	0
-BstnBll	ThBstnP	0
-BstnBll	CmmnwAM	0
-BstnBll	ThPOoEG	0
-BstnBll	DwnstCH	0
-BstnBll	BstnAth	0
-BstnBll	EtDaMGH	0
-BstnBll	BstnWnr	0
-BstnBll	MtrplWM	0
-BstnBll	BstnBll	0
-BstnBll	PirsPrk	0
-BstnBll	AnaHACM	0
-BstnBll	ArlngSC	0
-BstnBll	LttBIaL	0
-BstnBll	NwEnCJH	0
-BstnBll	MFABstn	0
-BstnBll	FrtWrrn	0
-BstnBll	ThmpsnI	0
-BstnBll	EmrldNc	0
-BstnBll	HOME_NEU_END	0
-PirsPrk	HOME_NEU_START	0
-PirsPrk	FnwyPrk	0
-PirsPrk	MsmofFA	0
-PirsPrk	NrthEnd	0
-PirsPrk	JhFKPML	0
-PirsPrk	BstnPbG	0
-PirsPrk	SmlAdmB	0
-PirsPrk	BstnPbL	0
-PirsPrk	BackBay	0
-PirsPrk	NwEngHM	0
-PirsPrk	ArnldAr	0
-PirsPrk	BstnOpH	0
-PirsPrk	Mrrt_CH	0
-PirsPrk	ThBstnP	0
-PirsPrk	CmmnwAM	0
-PirsPrk	ThPOoEG	0
-PirsPrk	DwnstCH	0
-PirsPrk	BstnAth	0
-PirsPrk	EtDaMGH	0
-PirsPrk	BstnWnr	0
-PirsPrk	MtrplWM	0
-PirsPrk	BstnBll	0
-PirsPrk	PirsPrk	0
-PirsPrk	AnaHACM	0
-PirsPrk	ArlngSC	0
-PirsPrk	LttBIaL	0
-PirsPrk	NwEnCJH	0
-PirsPrk	MFABstn	0
-PirsPrk	FrtWrrn	0
-PirsPrk	ThmpsnI	0
-PirsPrk	EmrldNc	0
-PirsPrk	HOME_NEU_END	0
-AnaHACM	HOME_NEU_START	0
-AnaHACM	FnwyPrk	0
-AnaHACM	MsmofFA	0
-AnaHACM	NrthEnd	0
-AnaHACM	JhFKPML	0
-AnaHACM	BstnPbG	0
-AnaHACM	SmlAdmB	0
-AnaHACM	BstnPbL	0
-AnaHACM	BackBay	0
-AnaHACM	NwEngHM	0
-AnaHACM	ArnldAr	0
-AnaHACM	BstnOpH	0
-AnaHACM	Mrrt_CH	0
-AnaHACM	ThBstnP	0
-AnaHACM	CmmnwAM	0
-AnaHACM	ThPOoEG	0
-AnaHACM	DwnstCH	0
-AnaHACM	BstnAth	0
-AnaHACM	EtDaMGH	0
-AnaHACM	BstnWnr	0
-AnaHACM	MtrplWM	0
-AnaHACM	BstnBll	0
-AnaHACM	PirsPrk	0
-AnaHACM	AnaHACM	0
-AnaHACM	ArlngSC	0
-AnaHACM	LttBIaL	0
-AnaHACM	NwEnCJH	0
-AnaHACM	MFABstn	0
-AnaHACM	FrtWrrn	0
-AnaHACM	ThmpsnI	0
-AnaHACM	EmrldNc	0
-AnaHACM	HOME_NEU_END	0
-ArlngSC	HOME_NEU_START	0
-ArlngSC	FnwyPrk	0
-ArlngSC	MsmofFA	0
-ArlngSC	NrthEnd	0
-ArlngSC	JhFKPML	0
-ArlngSC	BstnPbG	0
-ArlngSC	SmlAdmB	0
-ArlngSC	BstnPbL	0
-ArlngSC	BackBay	0
-ArlngSC	NwEngHM	0
-ArlngSC	ArnldAr	0
-ArlngSC	BstnOpH	0
-ArlngSC	Mrrt_CH	0
-ArlngSC	ThBstnP	0
-ArlngSC	CmmnwAM	0
-ArlngSC	ThPOoEG	0
-ArlngSC	DwnstCH	0
-ArlngSC	BstnAth	0
-ArlngSC	EtDaMGH	0
-ArlngSC	BstnWnr	0
-ArlngSC	MtrplWM	0
-ArlngSC	BstnBll	0
-ArlngSC	PirsPrk	0
-ArlngSC	AnaHACM	0
-ArlngSC	ArlngSC	0
-ArlngSC	LttBIaL	0
-ArlngSC	NwEnCJH	0
-ArlngSC	MFABstn	0
-ArlngSC	FrtWrrn	0
-ArlngSC	ThmpsnI	0
-ArlngSC	EmrldNc	0
-ArlngSC	HOME_NEU_END	0
-LttBIaL	HOME_NEU_START	0
-LttBIaL	FnwyPrk	0
-LttBIaL	MsmofFA	0
-LttBIaL	NrthEnd	0
-LttBIaL	JhFKPML	0
-LttBIaL	BstnPbG	0
-LttBIaL	SmlAdmB	0
-LttBIaL	BstnPbL	0
-LttBIaL	BackBay	0
-LttBIaL	NwEngHM	0
-LttBIaL	ArnldAr	0
-LttBIaL	BstnOpH	0
-LttBIaL	Mrrt_CH	0
-LttBIaL	ThBstnP	0
-LttBIaL	CmmnwAM	0
-LttBIaL	ThPOoEG	0
-LttBIaL	DwnstCH	0
-LttBIaL	BstnAth	0
-LttBIaL	EtDaMGH	0
-LttBIaL	BstnWnr	0
-LttBIaL	MtrplWM	0
-LttBIaL	BstnBll	0
-LttBIaL	PirsPrk	0
-LttBIaL	AnaHACM	0
-LttBIaL	ArlngSC	0
-LttBIaL	LttBIaL	0
-LttBIaL	NwEnCJH	0
-LttBIaL	MFABstn	0
-LttBIaL	FrtWrrn	0
-LttBIaL	ThmpsnI	0
-LttBIaL	EmrldNc	0
-LttBIaL	HOME_NEU_END	0
-NwEnCJH	HOME_NEU_START	0
-NwEnCJH	FnwyPrk	0
-NwEnCJH	MsmofFA	0
-NwEnCJH	NrthEnd	0
-NwEnCJH	JhFKPML	0
-NwEnCJH	BstnPbG	0
-NwEnCJH	SmlAdmB	0
-NwEnCJH	BstnPbL	0
-NwEnCJH	BackBay	0
-NwEnCJH	NwEngHM	0
-NwEnCJH	ArnldAr	0
-NwEnCJH	BstnOpH	0
-NwEnCJH	Mrrt_CH	0
-NwEnCJH	ThBstnP	0
-NwEnCJH	CmmnwAM	0
-NwEnCJH	ThPOoEG	0
-NwEnCJH	DwnstCH	0
-NwEnCJH	BstnAth	0
-NwEnCJH	EtDaMGH	0
-NwEnCJH	BstnWnr	0
-NwEnCJH	MtrplWM	0
-NwEnCJH	BstnBll	0
-NwEnCJH	PirsPrk	0
-NwEnCJH	AnaHACM	0
-NwEnCJH	ArlngSC	0
-NwEnCJH	LttBIaL	0
-NwEnCJH	NwEnCJH	0
-NwEnCJH	MFABstn	0
-NwEnCJH	FrtWrrn	0
-NwEnCJH	ThmpsnI	0
-NwEnCJH	EmrldNc	0
-NwEnCJH	HOME_NEU_END	0
-MFABstn	HOME_NEU_START	0
-MFABstn	FnwyPrk	0
-MFABstn	MsmofFA	0
-MFABstn	NrthEnd	0
-MFABstn	JhFKPML	0
-MFABstn	BstnPbG	0
-MFABstn	SmlAdmB	0
-MFABstn	BstnPbL	0
-MFABstn	BackBay	0
-MFABstn	NwEngHM	0
-MFABstn	ArnldAr	0
-MFABstn	BstnOpH	0
-MFABstn	Mrrt_CH	0
-MFABstn	ThBstnP	0
-MFABstn	CmmnwAM	0
-MFABstn	ThPOoEG	0
-MFABstn	DwnstCH	0
-MFABstn	BstnAth	0
-MFABstn	EtDaMGH	0
-MFABstn	BstnWnr	0
-MFABstn	MtrplWM	0
-MFABstn	BstnBll	0
-MFABstn	PirsPrk	0
-MFABstn	AnaHACM	0
-MFABstn	ArlngSC	0
-MFABstn	LttBIaL	0
-MFABstn	NwEnCJH	0
-MFABstn	MFABstn	0
-MFABstn	FrtWrrn	0
-MFABstn	ThmpsnI	0
-MFABstn	EmrldNc	0
-MFABstn	HOME_NEU_END	0
-FrtWrrn	HOME_NEU_START	0
-FrtWrrn	FnwyPrk	0
-FrtWrrn	MsmofFA	0
-FrtWrrn	NrthEnd	0
-FrtWrrn	JhFKPML	0
-FrtWrrn	BstnPbG	0
-FrtWrrn	SmlAdmB	0
-FrtWrrn	BstnPbL	0
-FrtWrrn	BackBay	0
-FrtWrrn	NwEngHM	0
-FrtWrrn	ArnldAr	0
-FrtWrrn	BstnOpH	0
-FrtWrrn	Mrrt_CH	0
-FrtWrrn	ThBstnP	0
-FrtWrrn	CmmnwAM	0
-FrtWrrn	ThPOoEG	0
-FrtWrrn	DwnstCH	0
-FrtWrrn	BstnAth	0
-FrtWrrn	EtDaMGH	0
-FrtWrrn	BstnWnr	0
-FrtWrrn	MtrplWM	0
-FrtWrrn	BstnBll	0
-FrtWrrn	PirsPrk	0
-FrtWrrn	AnaHACM	0
-FrtWrrn	ArlngSC	0
-FrtWrrn	LttBIaL	0
-FrtWrrn	NwEnCJH	0
-FrtWrrn	MFABstn	0
-FrtWrrn	FrtWrrn	0
-FrtWrrn	ThmpsnI	0
-FrtWrrn	EmrldNc	0
-FrtWrrn	HOME_NEU_END	0
-ThmpsnI	HOME_NEU_START	0
-ThmpsnI	FnwyPrk	0
-ThmpsnI	MsmofFA	0
-ThmpsnI	NrthEnd	0
-ThmpsnI	JhFKPML	0
-ThmpsnI	BstnPbG	0
-ThmpsnI	SmlAdmB	0
-ThmpsnI	BstnPbL	0
-ThmpsnI	BackBay	0
-ThmpsnI	NwEngHM	0
-ThmpsnI	ArnldAr	0
-ThmpsnI	BstnOpH	0
-ThmpsnI	Mrrt_CH	0
-ThmpsnI	ThBstnP	0
-ThmpsnI	CmmnwAM	0
-ThmpsnI	ThPOoEG	0
-ThmpsnI	DwnstCH	0
-ThmpsnI	BstnAth	0
-ThmpsnI	EtDaMGH	0
-ThmpsnI	BstnWnr	0
-ThmpsnI	MtrplWM	0
-ThmpsnI	BstnBll	0
-ThmpsnI	PirsPrk	0
-ThmpsnI	AnaHACM	0
-ThmpsnI	ArlngSC	0
-ThmpsnI	LttBIaL	0
-ThmpsnI	NwEnCJH	0
-ThmpsnI	MFABstn	0
-ThmpsnI	FrtWrrn	0
-ThmpsnI	ThmpsnI	0
-ThmpsnI	EmrldNc	0
-ThmpsnI	HOME_NEU_END	0
-EmrldNc	HOME_NEU_START	0
-EmrldNc	FnwyPrk	0
-EmrldNc	MsmofFA	0
-EmrldNc	NrthEnd	0
-EmrldNc	JhFKPML	0
-EmrldNc	BstnPbG	0
-EmrldNc	SmlAdmB	0
-EmrldNc	BstnPbL	0
-EmrldNc	BackBay	0
-EmrldNc	NwEngHM	0
-EmrldNc	ArnldAr	0
-EmrldNc	BstnOpH	0
-EmrldNc	Mrrt_CH	0
-EmrldNc	ThBstnP	0
-EmrldNc	CmmnwAM	0
-EmrldNc	ThPOoEG	0
-EmrldNc	DwnstCH	0
-EmrldNc	BstnAth	0
-EmrldNc	EtDaMGH	0
-EmrldNc	BstnWnr	0
-EmrldNc	MtrplWM	0
-EmrldNc	BstnBll	0
-EmrldNc	PirsPrk	0
-EmrldNc	AnaHACM	0
-EmrldNc	ArlngSC	0
-EmrldNc	LttBIaL	0
-EmrldNc	NwEnCJH	0
-EmrldNc	MFABstn	0
-EmrldNc	FrtWrrn	0
-EmrldNc	ThmpsnI	0
-EmrldNc	EmrldNc	0
-EmrldNc	HOME_NEU_END	1
-HOME_NEU_END	HOME_NEU_START	0
-HOME_NEU_END	FnwyPrk	0
-HOME_NEU_END	MsmofFA	0
-HOME_NEU_END	NrthEnd	0
-HOME_NEU_END	JhFKPML	0
-HOME_NEU_END	BstnPbG	0
-HOME_NEU_END	SmlAdmB	0
-HOME_NEU_END	BstnPbL	0
-HOME_NEU_END	BackBay	0
-HOME_NEU_END	NwEngHM	0
-HOME_NEU_END	ArnldAr	0
-HOME_NEU_END	BstnOpH	0
-HOME_NEU_END	Mrrt_CH	0
-HOME_NEU_END	ThBstnP	0
-HOME_NEU_END	CmmnwAM	0
-HOME_NEU_END	ThPOoEG	0
-HOME_NEU_END	DwnstCH	0
-HOME_NEU_END	BstnAth	0
-HOME_NEU_END	EtDaMGH	0
-HOME_NEU_END	BstnWnr	0
-HOME_NEU_END	MtrplWM	0
-HOME_NEU_END	BstnBll	0
-HOME_NEU_END	PirsPrk	0
-HOME_NEU_END	AnaHACM	0
-HOME_NEU_END	ArlngSC	0
-HOME_NEU_END	LttBIaL	0
-HOME_NEU_END	NwEnCJH	0
-HOME_NEU_END	MFABstn	0
-HOME_NEU_END	FrtWrrn	0
-HOME_NEU_END	ThmpsnI	0
-HOME_NEU_END	EmrldNc	0
-HOME_NEU_END	HOME_NEU_END	0
+ampl.tab 3 1
+ALL_PLACES	PLACES	DAYS	travel
+HOME_NEU_START	HOME_NEU_START	1	0
+HOME_NEU_START	FnwyPrk	1	0
+HOME_NEU_START	MsmofFA	1	0
+HOME_NEU_START	NrthEnd	1	0
+HOME_NEU_START	JhFKPML	1	0
+HOME_NEU_START	BstnPbG	1	0
+HOME_NEU_START	SmlAdmB	1	0
+HOME_NEU_START	BstnPbL	1	0
+HOME_NEU_START	BackBay	1	0
+HOME_NEU_START	NwEngHM	1	0
+HOME_NEU_START	ArnldAr	1	0
+HOME_NEU_START	BstnOpH	1	0
+HOME_NEU_START	Mrrt_CH	1	0
+HOME_NEU_START	ThBstnP	1	0
+HOME_NEU_START	CmmnwAM	1	0
+HOME_NEU_START	ThPOoEG	1	0
+HOME_NEU_START	DwnstCH	1	0
+HOME_NEU_START	BstnAth	1	0
+HOME_NEU_START	EtDaMGH	1	0
+HOME_NEU_START	BstnWnr	1	0
+HOME_NEU_START	MtrplWM	1	0
+HOME_NEU_START	BstnBll	1	0
+HOME_NEU_START	PirsPrk	1	0
+HOME_NEU_START	AnaHACM	1	0
+HOME_NEU_START	ArlngSC	1	0
+HOME_NEU_START	LttBIaL	1	0
+HOME_NEU_START	NwEnCJH	1	1
+HOME_NEU_START	MFABstn	1	0
+HOME_NEU_START	FrtWrrn	1	0
+HOME_NEU_START	ThmpsnI	1	0
+HOME_NEU_START	EmrldNc	1	0
+HOME_NEU_START	HOME_NEU_END	1	0
+FnwyPrk	HOME_NEU_START	1	0
+FnwyPrk	FnwyPrk	1	0
+FnwyPrk	MsmofFA	1	0
+FnwyPrk	NrthEnd	1	0
+FnwyPrk	JhFKPML	1	0
+FnwyPrk	BstnPbG	1	0
+FnwyPrk	SmlAdmB	1	0
+FnwyPrk	BstnPbL	1	0
+FnwyPrk	BackBay	1	0
+FnwyPrk	NwEngHM	1	0
+FnwyPrk	ArnldAr	1	0
+FnwyPrk	BstnOpH	1	0
+FnwyPrk	Mrrt_CH	1	0
+FnwyPrk	ThBstnP	1	0
+FnwyPrk	CmmnwAM	1	0
+FnwyPrk	ThPOoEG	1	0
+FnwyPrk	DwnstCH	1	0
+FnwyPrk	BstnAth	1	0
+FnwyPrk	EtDaMGH	1	0
+FnwyPrk	BstnWnr	1	0
+FnwyPrk	MtrplWM	1	0
+FnwyPrk	BstnBll	1	0
+FnwyPrk	PirsPrk	1	0
+FnwyPrk	AnaHACM	1	0
+FnwyPrk	ArlngSC	1	0
+FnwyPrk	LttBIaL	1	0
+FnwyPrk	NwEnCJH	1	0
+FnwyPrk	MFABstn	1	0
+FnwyPrk	FrtWrrn	1	0
+FnwyPrk	ThmpsnI	1	0
+FnwyPrk	EmrldNc	1	0
+FnwyPrk	HOME_NEU_END	1	0
+MsmofFA	HOME_NEU_START	1	0
+MsmofFA	FnwyPrk	1	0
+MsmofFA	MsmofFA	1	0
+MsmofFA	NrthEnd	1	0
+MsmofFA	JhFKPML	1	0
+MsmofFA	BstnPbG	1	0
+MsmofFA	SmlAdmB	1	0
+MsmofFA	BstnPbL	1	0
+MsmofFA	BackBay	1	0
+MsmofFA	NwEngHM	1	0
+MsmofFA	ArnldAr	1	0
+MsmofFA	BstnOpH	1	0
+MsmofFA	Mrrt_CH	1	0
+MsmofFA	ThBstnP	1	0
+MsmofFA	CmmnwAM	1	0
+MsmofFA	ThPOoEG	1	0
+MsmofFA	DwnstCH	1	0
+MsmofFA	BstnAth	1	0
+MsmofFA	EtDaMGH	1	0
+MsmofFA	BstnWnr	1	0
+MsmofFA	MtrplWM	1	0
+MsmofFA	BstnBll	1	0
+MsmofFA	PirsPrk	1	0
+MsmofFA	AnaHACM	1	0
+MsmofFA	ArlngSC	1	0
+MsmofFA	LttBIaL	1	0
+MsmofFA	NwEnCJH	1	0
+MsmofFA	MFABstn	1	0
+MsmofFA	FrtWrrn	1	0
+MsmofFA	ThmpsnI	1	0
+MsmofFA	EmrldNc	1	0
+MsmofFA	HOME_NEU_END	1	0
+NrthEnd	HOME_NEU_START	1	0
+NrthEnd	FnwyPrk	1	0
+NrthEnd	MsmofFA	1	0
+NrthEnd	NrthEnd	1	0
+NrthEnd	JhFKPML	1	0
+NrthEnd	BstnPbG	1	0
+NrthEnd	SmlAdmB	1	0
+NrthEnd	BstnPbL	1	0
+NrthEnd	BackBay	1	0
+NrthEnd	NwEngHM	1	0
+NrthEnd	ArnldAr	1	0
+NrthEnd	BstnOpH	1	0
+NrthEnd	Mrrt_CH	1	0
+NrthEnd	ThBstnP	1	0
+NrthEnd	CmmnwAM	1	0
+NrthEnd	ThPOoEG	1	0
+NrthEnd	DwnstCH	1	0
+NrthEnd	BstnAth	1	0
+NrthEnd	EtDaMGH	1	0
+NrthEnd	BstnWnr	1	0
+NrthEnd	MtrplWM	1	0
+NrthEnd	BstnBll	1	0
+NrthEnd	PirsPrk	1	0
+NrthEnd	AnaHACM	1	0
+NrthEnd	ArlngSC	1	0
+NrthEnd	LttBIaL	1	0
+NrthEnd	NwEnCJH	1	0
+NrthEnd	MFABstn	1	0
+NrthEnd	FrtWrrn	1	0
+NrthEnd	ThmpsnI	1	0
+NrthEnd	EmrldNc	1	0
+NrthEnd	HOME_NEU_END	1	0
+JhFKPML	HOME_NEU_START	1	0
+JhFKPML	FnwyPrk	1	0
+JhFKPML	MsmofFA	1	0
+JhFKPML	NrthEnd	1	0
+JhFKPML	JhFKPML	1	0
+JhFKPML	BstnPbG	1	0
+JhFKPML	SmlAdmB	1	0
+JhFKPML	BstnPbL	1	0
+JhFKPML	BackBay	1	0
+JhFKPML	NwEngHM	1	0
+JhFKPML	ArnldAr	1	0
+JhFKPML	BstnOpH	1	0
+JhFKPML	Mrrt_CH	1	0
+JhFKPML	ThBstnP	1	0
+JhFKPML	CmmnwAM	1	0
+JhFKPML	ThPOoEG	1	0
+JhFKPML	DwnstCH	1	0
+JhFKPML	BstnAth	1	0
+JhFKPML	EtDaMGH	1	0
+JhFKPML	BstnWnr	1	0
+JhFKPML	MtrplWM	1	0
+JhFKPML	BstnBll	1	0
+JhFKPML	PirsPrk	1	0
+JhFKPML	AnaHACM	1	0
+JhFKPML	ArlngSC	1	0
+JhFKPML	LttBIaL	1	0
+JhFKPML	NwEnCJH	1	0
+JhFKPML	MFABstn	1	0
+JhFKPML	FrtWrrn	1	0
+JhFKPML	ThmpsnI	1	0
+JhFKPML	EmrldNc	1	0
+JhFKPML	HOME_NEU_END	1	0
+BstnPbG	HOME_NEU_START	1	0
+BstnPbG	FnwyPrk	1	0
+BstnPbG	MsmofFA	1	0
+BstnPbG	NrthEnd	1	0
+BstnPbG	JhFKPML	1	0
+BstnPbG	BstnPbG	1	0
+BstnPbG	SmlAdmB	1	0
+BstnPbG	BstnPbL	1	0
+BstnPbG	BackBay	1	0
+BstnPbG	NwEngHM	1	0
+BstnPbG	ArnldAr	1	0
+BstnPbG	BstnOpH	1	0
+BstnPbG	Mrrt_CH	1	0
+BstnPbG	ThBstnP	1	0
+BstnPbG	CmmnwAM	1	0
+BstnPbG	ThPOoEG	1	0
+BstnPbG	DwnstCH	1	0
+BstnPbG	BstnAth	1	0
+BstnPbG	EtDaMGH	1	0
+BstnPbG	BstnWnr	1	0
+BstnPbG	MtrplWM	1	0
+BstnPbG	BstnBll	1	0
+BstnPbG	PirsPrk	1	0
+BstnPbG	AnaHACM	1	0
+BstnPbG	ArlngSC	1	0
+BstnPbG	LttBIaL	1	0
+BstnPbG	NwEnCJH	1	0
+BstnPbG	MFABstn	1	0
+BstnPbG	FrtWrrn	1	0
+BstnPbG	ThmpsnI	1	0
+BstnPbG	EmrldNc	1	0
+BstnPbG	HOME_NEU_END	1	0
+SmlAdmB	HOME_NEU_START	1	0
+SmlAdmB	FnwyPrk	1	0
+SmlAdmB	MsmofFA	1	0
+SmlAdmB	NrthEnd	1	0
+SmlAdmB	JhFKPML	1	0
+SmlAdmB	BstnPbG	1	0
+SmlAdmB	SmlAdmB	1	0
+SmlAdmB	BstnPbL	1	0
+SmlAdmB	BackBay	1	0
+SmlAdmB	NwEngHM	1	0
+SmlAdmB	ArnldAr	1	0
+SmlAdmB	BstnOpH	1	0
+SmlAdmB	Mrrt_CH	1	0
+SmlAdmB	ThBstnP	1	0
+SmlAdmB	CmmnwAM	1	0
+SmlAdmB	ThPOoEG	1	0
+SmlAdmB	DwnstCH	1	0
+SmlAdmB	BstnAth	1	0
+SmlAdmB	EtDaMGH	1	0
+SmlAdmB	BstnWnr	1	0
+SmlAdmB	MtrplWM	1	0
+SmlAdmB	BstnBll	1	0
+SmlAdmB	PirsPrk	1	0
+SmlAdmB	AnaHACM	1	0
+SmlAdmB	ArlngSC	1	0
+SmlAdmB	LttBIaL	1	0
+SmlAdmB	NwEnCJH	1	0
+SmlAdmB	MFABstn	1	0
+SmlAdmB	FrtWrrn	1	0
+SmlAdmB	ThmpsnI	1	0
+SmlAdmB	EmrldNc	1	0
+SmlAdmB	HOME_NEU_END	1	0
+BstnPbL	HOME_NEU_START	1	0
+BstnPbL	FnwyPrk	1	0
+BstnPbL	MsmofFA	1	0
+BstnPbL	NrthEnd	1	0
+BstnPbL	JhFKPML	1	0
+BstnPbL	BstnPbG	1	0
+BstnPbL	SmlAdmB	1	0
+BstnPbL	BstnPbL	1	0
+BstnPbL	BackBay	1	0
+BstnPbL	NwEngHM	1	0
+BstnPbL	ArnldAr	1	0
+BstnPbL	BstnOpH	1	0
+BstnPbL	Mrrt_CH	1	0
+BstnPbL	ThBstnP	1	0
+BstnPbL	CmmnwAM	1	0
+BstnPbL	ThPOoEG	1	0
+BstnPbL	DwnstCH	1	0
+BstnPbL	BstnAth	1	0
+BstnPbL	EtDaMGH	1	0
+BstnPbL	BstnWnr	1	0
+BstnPbL	MtrplWM	1	0
+BstnPbL	BstnBll	1	0
+BstnPbL	PirsPrk	1	0
+BstnPbL	AnaHACM	1	0
+BstnPbL	ArlngSC	1	0
+BstnPbL	LttBIaL	1	0
+BstnPbL	NwEnCJH	1	0
+BstnPbL	MFABstn	1	0
+BstnPbL	FrtWrrn	1	0
+BstnPbL	ThmpsnI	1	0
+BstnPbL	EmrldNc	1	0
+BstnPbL	HOME_NEU_END	1	0
+BackBay	HOME_NEU_START	1	0
+BackBay	FnwyPrk	1	0
+BackBay	MsmofFA	1	0
+BackBay	NrthEnd	1	0
+BackBay	JhFKPML	1	0
+BackBay	BstnPbG	1	0
+BackBay	SmlAdmB	1	0
+BackBay	BstnPbL	1	0
+BackBay	BackBay	1	0
+BackBay	NwEngHM	1	0
+BackBay	ArnldAr	1	0
+BackBay	BstnOpH	1	0
+BackBay	Mrrt_CH	1	0
+BackBay	ThBstnP	1	0
+BackBay	CmmnwAM	1	0
+BackBay	ThPOoEG	1	0
+BackBay	DwnstCH	1	0
+BackBay	BstnAth	1	0
+BackBay	EtDaMGH	1	0
+BackBay	BstnWnr	1	0
+BackBay	MtrplWM	1	0
+BackBay	BstnBll	1	0
+BackBay	PirsPrk	1	0
+BackBay	AnaHACM	1	0
+BackBay	ArlngSC	1	0
+BackBay	LttBIaL	1	0
+BackBay	NwEnCJH	1	0
+BackBay	MFABstn	1	0
+BackBay	FrtWrrn	1	0
+BackBay	ThmpsnI	1	0
+BackBay	EmrldNc	1	0
+BackBay	HOME_NEU_END	1	0
+NwEngHM	HOME_NEU_START	1	0
+NwEngHM	FnwyPrk	1	0
+NwEngHM	MsmofFA	1	0
+NwEngHM	NrthEnd	1	0
+NwEngHM	JhFKPML	1	0
+NwEngHM	BstnPbG	1	0
+NwEngHM	SmlAdmB	1	0
+NwEngHM	BstnPbL	1	0
+NwEngHM	BackBay	1	0
+NwEngHM	NwEngHM	1	0
+NwEngHM	ArnldAr	1	0
+NwEngHM	BstnOpH	1	0
+NwEngHM	Mrrt_CH	1	0
+NwEngHM	ThBstnP	1	0
+NwEngHM	CmmnwAM	1	0
+NwEngHM	ThPOoEG	1	1
+NwEngHM	DwnstCH	1	0
+NwEngHM	BstnAth	1	0
+NwEngHM	EtDaMGH	1	0
+NwEngHM	BstnWnr	1	0
+NwEngHM	MtrplWM	1	0
+NwEngHM	BstnBll	1	0
+NwEngHM	PirsPrk	1	0
+NwEngHM	AnaHACM	1	0
+NwEngHM	ArlngSC	1	0
+NwEngHM	LttBIaL	1	0
+NwEngHM	NwEnCJH	1	0
+NwEngHM	MFABstn	1	0
+NwEngHM	FrtWrrn	1	0
+NwEngHM	ThmpsnI	1	0
+NwEngHM	EmrldNc	1	0
+NwEngHM	HOME_NEU_END	1	0
+ArnldAr	HOME_NEU_START	1	0
+ArnldAr	FnwyPrk	1	0
+ArnldAr	MsmofFA	1	0
+ArnldAr	NrthEnd	1	0
+ArnldAr	JhFKPML	1	0
+ArnldAr	BstnPbG	1	0
+ArnldAr	SmlAdmB	1	0
+ArnldAr	BstnPbL	1	0
+ArnldAr	BackBay	1	0
+ArnldAr	NwEngHM	1	0
+ArnldAr	ArnldAr	1	0
+ArnldAr	BstnOpH	1	0
+ArnldAr	Mrrt_CH	1	0
+ArnldAr	ThBstnP	1	0
+ArnldAr	CmmnwAM	1	0
+ArnldAr	ThPOoEG	1	0
+ArnldAr	DwnstCH	1	0
+ArnldAr	BstnAth	1	0
+ArnldAr	EtDaMGH	1	0
+ArnldAr	BstnWnr	1	0
+ArnldAr	MtrplWM	1	0
+ArnldAr	BstnBll	1	0
+ArnldAr	PirsPrk	1	0
+ArnldAr	AnaHACM	1	0
+ArnldAr	ArlngSC	1	0
+ArnldAr	LttBIaL	1	0
+ArnldAr	NwEnCJH	1	0
+ArnldAr	MFABstn	1	0
+ArnldAr	FrtWrrn	1	0
+ArnldAr	ThmpsnI	1	0
+ArnldAr	EmrldNc	1	0
+ArnldAr	HOME_NEU_END	1	0
+BstnOpH	HOME_NEU_START	1	0
+BstnOpH	FnwyPrk	1	0
+BstnOpH	MsmofFA	1	0
+BstnOpH	NrthEnd	1	0
+BstnOpH	JhFKPML	1	0
+BstnOpH	BstnPbG	1	0
+BstnOpH	SmlAdmB	1	0
+BstnOpH	BstnPbL	1	0
+BstnOpH	BackBay	1	0
+BstnOpH	NwEngHM	1	0
+BstnOpH	ArnldAr	1	0
+BstnOpH	BstnOpH	1	0
+BstnOpH	Mrrt_CH	1	0
+BstnOpH	ThBstnP	1	0
+BstnOpH	CmmnwAM	1	0
+BstnOpH	ThPOoEG	1	0
+BstnOpH	DwnstCH	1	0
+BstnOpH	BstnAth	1	0
+BstnOpH	EtDaMGH	1	0
+BstnOpH	BstnWnr	1	0
+BstnOpH	MtrplWM	1	0
+BstnOpH	BstnBll	1	0
+BstnOpH	PirsPrk	1	0
+BstnOpH	AnaHACM	1	0
+BstnOpH	ArlngSC	1	0
+BstnOpH	LttBIaL	1	0
+BstnOpH	NwEnCJH	1	0
+BstnOpH	MFABstn	1	0
+BstnOpH	FrtWrrn	1	0
+BstnOpH	ThmpsnI	1	0
+BstnOpH	EmrldNc	1	1
+BstnOpH	HOME_NEU_END	1	0
+Mrrt_CH	HOME_NEU_START	1	0
+Mrrt_CH	FnwyPrk	1	0
+Mrrt_CH	MsmofFA	1	0
+Mrrt_CH	NrthEnd	1	0
+Mrrt_CH	JhFKPML	1	0
+Mrrt_CH	BstnPbG	1	0
+Mrrt_CH	SmlAdmB	1	0
+Mrrt_CH	BstnPbL	1	0
+Mrrt_CH	BackBay	1	0
+Mrrt_CH	NwEngHM	1	1
+Mrrt_CH	ArnldAr	1	0
+Mrrt_CH	BstnOpH	1	0
+Mrrt_CH	Mrrt_CH	1	0
+Mrrt_CH	ThBstnP	1	0
+Mrrt_CH	CmmnwAM	1	0
+Mrrt_CH	ThPOoEG	1	0
+Mrrt_CH	DwnstCH	1	0
+Mrrt_CH	BstnAth	1	0
+Mrrt_CH	EtDaMGH	1	0
+Mrrt_CH	BstnWnr	1	0
+Mrrt_CH	MtrplWM	1	0
+Mrrt_CH	BstnBll	1	0
+Mrrt_CH	PirsPrk	1	0
+Mrrt_CH	AnaHACM	1	0
+Mrrt_CH	ArlngSC	1	0
+Mrrt_CH	LttBIaL	1	0
+Mrrt_CH	NwEnCJH	1	0
+Mrrt_CH	MFABstn	1	0
+Mrrt_CH	FrtWrrn	1	0
+Mrrt_CH	ThmpsnI	1	0
+Mrrt_CH	EmrldNc	1	0
+Mrrt_CH	HOME_NEU_END	1	0
+ThBstnP	HOME_NEU_START	1	0
+ThBstnP	FnwyPrk	1	0
+ThBstnP	MsmofFA	1	0
+ThBstnP	NrthEnd	1	0
+ThBstnP	JhFKPML	1	0
+ThBstnP	BstnPbG	1	0
+ThBstnP	SmlAdmB	1	0
+ThBstnP	BstnPbL	1	0
+ThBstnP	BackBay	1	0
+ThBstnP	NwEngHM	1	0
+ThBstnP	ArnldAr	1	0
+ThBstnP	BstnOpH	1	0
+ThBstnP	Mrrt_CH	1	0
+ThBstnP	ThBstnP	1	0
+ThBstnP	CmmnwAM	1	0
+ThBstnP	ThPOoEG	1	0
+ThBstnP	DwnstCH	1	0
+ThBstnP	BstnAth	1	0
+ThBstnP	EtDaMGH	1	0
+ThBstnP	BstnWnr	1	0
+ThBstnP	MtrplWM	1	0
+ThBstnP	BstnBll	1	0
+ThBstnP	PirsPrk	1	0
+ThBstnP	AnaHACM	1	0
+ThBstnP	ArlngSC	1	0
+ThBstnP	LttBIaL	1	0
+ThBstnP	NwEnCJH	1	0
+ThBstnP	MFABstn	1	0
+ThBstnP	FrtWrrn	1	0
+ThBstnP	ThmpsnI	1	0
+ThBstnP	EmrldNc	1	0
+ThBstnP	HOME_NEU_END	1	0
+CmmnwAM	HOME_NEU_START	1	0
+CmmnwAM	FnwyPrk	1	0
+CmmnwAM	MsmofFA	1	0
+CmmnwAM	NrthEnd	1	0
+CmmnwAM	JhFKPML	1	0
+CmmnwAM	BstnPbG	1	0
+CmmnwAM	SmlAdmB	1	0
+CmmnwAM	BstnPbL	1	0
+CmmnwAM	BackBay	1	0
+CmmnwAM	NwEngHM	1	0
+CmmnwAM	ArnldAr	1	0
+CmmnwAM	BstnOpH	1	0
+CmmnwAM	Mrrt_CH	1	0
+CmmnwAM	ThBstnP	1	0
+CmmnwAM	CmmnwAM	1	0
+CmmnwAM	ThPOoEG	1	0
+CmmnwAM	DwnstCH	1	0
+CmmnwAM	BstnAth	1	0
+CmmnwAM	EtDaMGH	1	0
+CmmnwAM	BstnWnr	1	0
+CmmnwAM	MtrplWM	1	0
+CmmnwAM	BstnBll	1	0
+CmmnwAM	PirsPrk	1	0
+CmmnwAM	AnaHACM	1	0
+CmmnwAM	ArlngSC	1	0
+CmmnwAM	LttBIaL	1	0
+CmmnwAM	NwEnCJH	1	0
+CmmnwAM	MFABstn	1	0
+CmmnwAM	FrtWrrn	1	0
+CmmnwAM	ThmpsnI	1	0
+CmmnwAM	EmrldNc	1	0
+CmmnwAM	HOME_NEU_END	1	0
+ThPOoEG	HOME_NEU_START	1	0
+ThPOoEG	FnwyPrk	1	0
+ThPOoEG	MsmofFA	1	0
+ThPOoEG	NrthEnd	1	0
+ThPOoEG	JhFKPML	1	0
+ThPOoEG	BstnPbG	1	0
+ThPOoEG	SmlAdmB	1	0
+ThPOoEG	BstnPbL	1	0
+ThPOoEG	BackBay	1	0
+ThPOoEG	NwEngHM	1	0
+ThPOoEG	ArnldAr	1	0
+ThPOoEG	BstnOpH	1	0
+ThPOoEG	Mrrt_CH	1	0
+ThPOoEG	ThBstnP	1	0
+ThPOoEG	CmmnwAM	1	0
+ThPOoEG	ThPOoEG	1	0
+ThPOoEG	DwnstCH	1	0
+ThPOoEG	BstnAth	1	0
+ThPOoEG	EtDaMGH	1	0
+ThPOoEG	BstnWnr	1	0
+ThPOoEG	MtrplWM	1	0
+ThPOoEG	BstnBll	1	1
+ThPOoEG	PirsPrk	1	0
+ThPOoEG	AnaHACM	1	0
+ThPOoEG	ArlngSC	1	0
+ThPOoEG	LttBIaL	1	0
+ThPOoEG	NwEnCJH	1	0
+ThPOoEG	MFABstn	1	0
+ThPOoEG	FrtWrrn	1	0
+ThPOoEG	ThmpsnI	1	0
+ThPOoEG	EmrldNc	1	0
+ThPOoEG	HOME_NEU_END	1	0
+DwnstCH	HOME_NEU_START	1	0
+DwnstCH	FnwyPrk	1	0
+DwnstCH	MsmofFA	1	0
+DwnstCH	NrthEnd	1	0
+DwnstCH	JhFKPML	1	0
+DwnstCH	BstnPbG	1	0
+DwnstCH	SmlAdmB	1	0
+DwnstCH	BstnPbL	1	0
+DwnstCH	BackBay	1	0
+DwnstCH	NwEngHM	1	0
+DwnstCH	ArnldAr	1	0
+DwnstCH	BstnOpH	1	0
+DwnstCH	Mrrt_CH	1	0
+DwnstCH	ThBstnP	1	0
+DwnstCH	CmmnwAM	1	0
+DwnstCH	ThPOoEG	1	0
+DwnstCH	DwnstCH	1	0
+DwnstCH	BstnAth	1	0
+DwnstCH	EtDaMGH	1	0
+DwnstCH	BstnWnr	1	0
+DwnstCH	MtrplWM	1	0
+DwnstCH	BstnBll	1	0
+DwnstCH	PirsPrk	1	0
+DwnstCH	AnaHACM	1	0
+DwnstCH	ArlngSC	1	0
+DwnstCH	LttBIaL	1	0
+DwnstCH	NwEnCJH	1	0
+DwnstCH	MFABstn	1	0
+DwnstCH	FrtWrrn	1	0
+DwnstCH	ThmpsnI	1	0
+DwnstCH	EmrldNc	1	0
+DwnstCH	HOME_NEU_END	1	0
+BstnAth	HOME_NEU_START	1	0
+BstnAth	FnwyPrk	1	0
+BstnAth	MsmofFA	1	0
+BstnAth	NrthEnd	1	0
+BstnAth	JhFKPML	1	0
+BstnAth	BstnPbG	1	0
+BstnAth	SmlAdmB	1	0
+BstnAth	BstnPbL	1	0
+BstnAth	BackBay	1	0
+BstnAth	NwEngHM	1	0
+BstnAth	ArnldAr	1	0
+BstnAth	BstnOpH	1	0
+BstnAth	Mrrt_CH	1	1
+BstnAth	ThBstnP	1	0
+BstnAth	CmmnwAM	1	0
+BstnAth	ThPOoEG	1	0
+BstnAth	DwnstCH	1	0
+BstnAth	BstnAth	1	0
+BstnAth	EtDaMGH	1	0
+BstnAth	BstnWnr	1	0
+BstnAth	MtrplWM	1	0
+BstnAth	BstnBll	1	0
+BstnAth	PirsPrk	1	0
+BstnAth	AnaHACM	1	0
+BstnAth	ArlngSC	1	0
+BstnAth	LttBIaL	1	0
+BstnAth	NwEnCJH	1	0
+BstnAth	MFABstn	1	0
+BstnAth	FrtWrrn	1	0
+BstnAth	ThmpsnI	1	0
+BstnAth	EmrldNc	1	0
+BstnAth	HOME_NEU_END	1	0
+EtDaMGH	HOME_NEU_START	1	0
+EtDaMGH	FnwyPrk	1	0
+EtDaMGH	MsmofFA	1	0
+EtDaMGH	NrthEnd	1	0
+EtDaMGH	JhFKPML	1	0
+EtDaMGH	BstnPbG	1	0
+EtDaMGH	SmlAdmB	1	0
+EtDaMGH	BstnPbL	1	0
+EtDaMGH	BackBay	1	0
+EtDaMGH	NwEngHM	1	0
+EtDaMGH	ArnldAr	1	0
+EtDaMGH	BstnOpH	1	0
+EtDaMGH	Mrrt_CH	1	0
+EtDaMGH	ThBstnP	1	0
+EtDaMGH	CmmnwAM	1	0
+EtDaMGH	ThPOoEG	1	0
+EtDaMGH	DwnstCH	1	0
+EtDaMGH	BstnAth	1	0
+EtDaMGH	EtDaMGH	1	0
+EtDaMGH	BstnWnr	1	0
+EtDaMGH	MtrplWM	1	0
+EtDaMGH	BstnBll	1	0
+EtDaMGH	PirsPrk	1	0
+EtDaMGH	AnaHACM	1	0
+EtDaMGH	ArlngSC	1	0
+EtDaMGH	LttBIaL	1	0
+EtDaMGH	NwEnCJH	1	0
+EtDaMGH	MFABstn	1	0
+EtDaMGH	FrtWrrn	1	0
+EtDaMGH	ThmpsnI	1	0
+EtDaMGH	EmrldNc	1	0
+EtDaMGH	HOME_NEU_END	1	0
+BstnWnr	HOME_NEU_START	1	0
+BstnWnr	FnwyPrk	1	0
+BstnWnr	MsmofFA	1	0
+BstnWnr	NrthEnd	1	0
+BstnWnr	JhFKPML	1	0
+BstnWnr	BstnPbG	1	0
+BstnWnr	SmlAdmB	1	0
+BstnWnr	BstnPbL	1	0
+BstnWnr	BackBay	1	0
+BstnWnr	NwEngHM	1	0
+BstnWnr	ArnldAr	1	0
+BstnWnr	BstnOpH	1	0
+BstnWnr	Mrrt_CH	1	0
+BstnWnr	ThBstnP	1	0
+BstnWnr	CmmnwAM	1	0
+BstnWnr	ThPOoEG	1	0
+BstnWnr	DwnstCH	1	0
+BstnWnr	BstnAth	1	0
+BstnWnr	EtDaMGH	1	0
+BstnWnr	BstnWnr	1	0
+BstnWnr	MtrplWM	1	0
+BstnWnr	BstnBll	1	0
+BstnWnr	PirsPrk	1	0
+BstnWnr	AnaHACM	1	0
+BstnWnr	ArlngSC	1	0
+BstnWnr	LttBIaL	1	0
+BstnWnr	NwEnCJH	1	0
+BstnWnr	MFABstn	1	0
+BstnWnr	FrtWrrn	1	0
+BstnWnr	ThmpsnI	1	0
+BstnWnr	EmrldNc	1	0
+BstnWnr	HOME_NEU_END	1	0
+MtrplWM	HOME_NEU_START	1	0
+MtrplWM	FnwyPrk	1	0
+MtrplWM	MsmofFA	1	0
+MtrplWM	NrthEnd	1	0
+MtrplWM	JhFKPML	1	0
+MtrplWM	BstnPbG	1	0
+MtrplWM	SmlAdmB	1	0
+MtrplWM	BstnPbL	1	0
+MtrplWM	BackBay	1	0
+MtrplWM	NwEngHM	1	0
+MtrplWM	ArnldAr	1	0
+MtrplWM	BstnOpH	1	0
+MtrplWM	Mrrt_CH	1	0
+MtrplWM	ThBstnP	1	0
+MtrplWM	CmmnwAM	1	0
+MtrplWM	ThPOoEG	1	0
+MtrplWM	DwnstCH	1	0
+MtrplWM	BstnAth	1	0
+MtrplWM	EtDaMGH	1	0
+MtrplWM	BstnWnr	1	0
+MtrplWM	MtrplWM	1	0
+MtrplWM	BstnBll	1	0
+MtrplWM	PirsPrk	1	0
+MtrplWM	AnaHACM	1	0
+MtrplWM	ArlngSC	1	0
+MtrplWM	LttBIaL	1	0
+MtrplWM	NwEnCJH	1	0
+MtrplWM	MFABstn	1	0
+MtrplWM	FrtWrrn	1	0
+MtrplWM	ThmpsnI	1	0
+MtrplWM	EmrldNc	1	0
+MtrplWM	HOME_NEU_END	1	0
+BstnBll	HOME_NEU_START	1	0
+BstnBll	FnwyPrk	1	0
+BstnBll	MsmofFA	1	0
+BstnBll	NrthEnd	1	0
+BstnBll	JhFKPML	1	0
+BstnBll	BstnPbG	1	0
+BstnBll	SmlAdmB	1	0
+BstnBll	BstnPbL	1	0
+BstnBll	BackBay	1	0
+BstnBll	NwEngHM	1	0
+BstnBll	ArnldAr	1	0
+BstnBll	BstnOpH	1	0
+BstnBll	Mrrt_CH	1	0
+BstnBll	ThBstnP	1	0
+BstnBll	CmmnwAM	1	0
+BstnBll	ThPOoEG	1	0
+BstnBll	DwnstCH	1	0
+BstnBll	BstnAth	1	0
+BstnBll	EtDaMGH	1	0
+BstnBll	BstnWnr	1	0
+BstnBll	MtrplWM	1	0
+BstnBll	BstnBll	1	0
+BstnBll	PirsPrk	1	0
+BstnBll	AnaHACM	1	0
+BstnBll	ArlngSC	1	1
+BstnBll	LttBIaL	1	0
+BstnBll	NwEnCJH	1	0
+BstnBll	MFABstn	1	0
+BstnBll	FrtWrrn	1	0
+BstnBll	ThmpsnI	1	0
+BstnBll	EmrldNc	1	0
+BstnBll	HOME_NEU_END	1	0
+PirsPrk	HOME_NEU_START	1	0
+PirsPrk	FnwyPrk	1	0
+PirsPrk	MsmofFA	1	0
+PirsPrk	NrthEnd	1	0
+PirsPrk	JhFKPML	1	0
+PirsPrk	BstnPbG	1	0
+PirsPrk	SmlAdmB	1	0
+PirsPrk	BstnPbL	1	0
+PirsPrk	BackBay	1	0
+PirsPrk	NwEngHM	1	0
+PirsPrk	ArnldAr	1	0
+PirsPrk	BstnOpH	1	0
+PirsPrk	Mrrt_CH	1	0
+PirsPrk	ThBstnP	1	0
+PirsPrk	CmmnwAM	1	0
+PirsPrk	ThPOoEG	1	0
+PirsPrk	DwnstCH	1	0
+PirsPrk	BstnAth	1	0
+PirsPrk	EtDaMGH	1	0
+PirsPrk	BstnWnr	1	0
+PirsPrk	MtrplWM	1	0
+PirsPrk	BstnBll	1	0
+PirsPrk	PirsPrk	1	0
+PirsPrk	AnaHACM	1	0
+PirsPrk	ArlngSC	1	0
+PirsPrk	LttBIaL	1	0
+PirsPrk	NwEnCJH	1	0
+PirsPrk	MFABstn	1	0
+PirsPrk	FrtWrrn	1	0
+PirsPrk	ThmpsnI	1	0
+PirsPrk	EmrldNc	1	0
+PirsPrk	HOME_NEU_END	1	0
+AnaHACM	HOME_NEU_START	1	0
+AnaHACM	FnwyPrk	1	0
+AnaHACM	MsmofFA	1	0
+AnaHACM	NrthEnd	1	0
+AnaHACM	JhFKPML	1	0
+AnaHACM	BstnPbG	1	0
+AnaHACM	SmlAdmB	1	0
+AnaHACM	BstnPbL	1	0
+AnaHACM	BackBay	1	0
+AnaHACM	NwEngHM	1	0
+AnaHACM	ArnldAr	1	0
+AnaHACM	BstnOpH	1	0
+AnaHACM	Mrrt_CH	1	0
+AnaHACM	ThBstnP	1	0
+AnaHACM	CmmnwAM	1	0
+AnaHACM	ThPOoEG	1	0
+AnaHACM	DwnstCH	1	0
+AnaHACM	BstnAth	1	0
+AnaHACM	EtDaMGH	1	0
+AnaHACM	BstnWnr	1	0
+AnaHACM	MtrplWM	1	0
+AnaHACM	BstnBll	1	0
+AnaHACM	PirsPrk	1	0
+AnaHACM	AnaHACM	1	0
+AnaHACM	ArlngSC	1	0
+AnaHACM	LttBIaL	1	0
+AnaHACM	NwEnCJH	1	0
+AnaHACM	MFABstn	1	0
+AnaHACM	FrtWrrn	1	0
+AnaHACM	ThmpsnI	1	0
+AnaHACM	EmrldNc	1	0
+AnaHACM	HOME_NEU_END	1	0
+ArlngSC	HOME_NEU_START	1	0
+ArlngSC	FnwyPrk	1	0
+ArlngSC	MsmofFA	1	0
+ArlngSC	NrthEnd	1	0
+ArlngSC	JhFKPML	1	0
+ArlngSC	BstnPbG	1	0
+ArlngSC	SmlAdmB	1	0
+ArlngSC	BstnPbL	1	0
+ArlngSC	BackBay	1	0
+ArlngSC	NwEngHM	1	0
+ArlngSC	ArnldAr	1	0
+ArlngSC	BstnOpH	1	1
+ArlngSC	Mrrt_CH	1	0
+ArlngSC	ThBstnP	1	0
+ArlngSC	CmmnwAM	1	0
+ArlngSC	ThPOoEG	1	0
+ArlngSC	DwnstCH	1	0
+ArlngSC	BstnAth	1	0
+ArlngSC	EtDaMGH	1	0
+ArlngSC	BstnWnr	1	0
+ArlngSC	MtrplWM	1	0
+ArlngSC	BstnBll	1	0
+ArlngSC	PirsPrk	1	0
+ArlngSC	AnaHACM	1	0
+ArlngSC	ArlngSC	1	0
+ArlngSC	LttBIaL	1	0
+ArlngSC	NwEnCJH	1	0
+ArlngSC	MFABstn	1	0
+ArlngSC	FrtWrrn	1	0
+ArlngSC	ThmpsnI	1	0
+ArlngSC	EmrldNc	1	0
+ArlngSC	HOME_NEU_END	1	0
+LttBIaL	HOME_NEU_START	1	0
+LttBIaL	FnwyPrk	1	0
+LttBIaL	MsmofFA	1	0
+LttBIaL	NrthEnd	1	0
+LttBIaL	JhFKPML	1	0
+LttBIaL	BstnPbG	1	0
+LttBIaL	SmlAdmB	1	0
+LttBIaL	BstnPbL	1	0
+LttBIaL	BackBay	1	0
+LttBIaL	NwEngHM	1	0
+LttBIaL	ArnldAr	1	0
+LttBIaL	BstnOpH	1	0
+LttBIaL	Mrrt_CH	1	0
+LttBIaL	ThBstnP	1	0
+LttBIaL	CmmnwAM	1	0
+LttBIaL	ThPOoEG	1	0
+LttBIaL	DwnstCH	1	0
+LttBIaL	BstnAth	1	0
+LttBIaL	EtDaMGH	1	0
+LttBIaL	BstnWnr	1	0
+LttBIaL	MtrplWM	1	0
+LttBIaL	BstnBll	1	0
+LttBIaL	PirsPrk	1	0
+LttBIaL	AnaHACM	1	0
+LttBIaL	ArlngSC	1	0
+LttBIaL	LttBIaL	1	0
+LttBIaL	NwEnCJH	1	0
+LttBIaL	MFABstn	1	0
+LttBIaL	FrtWrrn	1	0
+LttBIaL	ThmpsnI	1	0
+LttBIaL	EmrldNc	1	0
+LttBIaL	HOME_NEU_END	1	0
+NwEnCJH	HOME_NEU_START	1	0
+NwEnCJH	FnwyPrk	1	0
+NwEnCJH	MsmofFA	1	0
+NwEnCJH	NrthEnd	1	0
+NwEnCJH	JhFKPML	1	0
+NwEnCJH	BstnPbG	1	0
+NwEnCJH	SmlAdmB	1	0
+NwEnCJH	BstnPbL	1	0
+NwEnCJH	BackBay	1	0
+NwEnCJH	NwEngHM	1	0
+NwEnCJH	ArnldAr	1	0
+NwEnCJH	BstnOpH	1	0
+NwEnCJH	Mrrt_CH	1	0
+NwEnCJH	ThBstnP	1	0
+NwEnCJH	CmmnwAM	1	0
+NwEnCJH	ThPOoEG	1	0
+NwEnCJH	DwnstCH	1	0
+NwEnCJH	BstnAth	1	1
+NwEnCJH	EtDaMGH	1	0
+NwEnCJH	BstnWnr	1	0
+NwEnCJH	MtrplWM	1	0
+NwEnCJH	BstnBll	1	0
+NwEnCJH	PirsPrk	1	0
+NwEnCJH	AnaHACM	1	0
+NwEnCJH	ArlngSC	1	0
+NwEnCJH	LttBIaL	1	0
+NwEnCJH	NwEnCJH	1	0
+NwEnCJH	MFABstn	1	0
+NwEnCJH	FrtWrrn	1	0
+NwEnCJH	ThmpsnI	1	0
+NwEnCJH	EmrldNc	1	0
+NwEnCJH	HOME_NEU_END	1	0
+MFABstn	HOME_NEU_START	1	0
+MFABstn	FnwyPrk	1	0
+MFABstn	MsmofFA	1	0
+MFABstn	NrthEnd	1	0
+MFABstn	JhFKPML	1	0
+MFABstn	BstnPbG	1	0
+MFABstn	SmlAdmB	1	0
+MFABstn	BstnPbL	1	0
+MFABstn	BackBay	1	0
+MFABstn	NwEngHM	1	0
+MFABstn	ArnldAr	1	0
+MFABstn	BstnOpH	1	0
+MFABstn	Mrrt_CH	1	0
+MFABstn	ThBstnP	1	0
+MFABstn	CmmnwAM	1	0
+MFABstn	ThPOoEG	1	0
+MFABstn	DwnstCH	1	0
+MFABstn	BstnAth	1	0
+MFABstn	EtDaMGH	1	0
+MFABstn	BstnWnr	1	0
+MFABstn	MtrplWM	1	0
+MFABstn	BstnBll	1	0
+MFABstn	PirsPrk	1	0
+MFABstn	AnaHACM	1	0
+MFABstn	ArlngSC	1	0
+MFABstn	LttBIaL	1	0
+MFABstn	NwEnCJH	1	0
+MFABstn	MFABstn	1	0
+MFABstn	FrtWrrn	1	0
+MFABstn	ThmpsnI	1	0
+MFABstn	EmrldNc	1	0
+MFABstn	HOME_NEU_END	1	1
+FrtWrrn	HOME_NEU_START	1	0
+FrtWrrn	FnwyPrk	1	0
+FrtWrrn	MsmofFA	1	0
+FrtWrrn	NrthEnd	1	0
+FrtWrrn	JhFKPML	1	0
+FrtWrrn	BstnPbG	1	0
+FrtWrrn	SmlAdmB	1	0
+FrtWrrn	BstnPbL	1	0
+FrtWrrn	BackBay	1	0
+FrtWrrn	NwEngHM	1	0
+FrtWrrn	ArnldAr	1	0
+FrtWrrn	BstnOpH	1	0
+FrtWrrn	Mrrt_CH	1	0
+FrtWrrn	ThBstnP	1	0
+FrtWrrn	CmmnwAM	1	0
+FrtWrrn	ThPOoEG	1	0
+FrtWrrn	DwnstCH	1	0
+FrtWrrn	BstnAth	1	0
+FrtWrrn	EtDaMGH	1	0
+FrtWrrn	BstnWnr	1	0
+FrtWrrn	MtrplWM	1	0
+FrtWrrn	BstnBll	1	0
+FrtWrrn	PirsPrk	1	0
+FrtWrrn	AnaHACM	1	0
+FrtWrrn	ArlngSC	1	0
+FrtWrrn	LttBIaL	1	0
+FrtWrrn	NwEnCJH	1	0
+FrtWrrn	MFABstn	1	0
+FrtWrrn	FrtWrrn	1	0
+FrtWrrn	ThmpsnI	1	0
+FrtWrrn	EmrldNc	1	0
+FrtWrrn	HOME_NEU_END	1	0
+ThmpsnI	HOME_NEU_START	1	0
+ThmpsnI	FnwyPrk	1	0
+ThmpsnI	MsmofFA	1	0
+ThmpsnI	NrthEnd	1	0
+ThmpsnI	JhFKPML	1	0
+ThmpsnI	BstnPbG	1	0
+ThmpsnI	SmlAdmB	1	0
+ThmpsnI	BstnPbL	1	0
+ThmpsnI	BackBay	1	0
+ThmpsnI	NwEngHM	1	0
+ThmpsnI	ArnldAr	1	0
+ThmpsnI	BstnOpH	1	0
+ThmpsnI	Mrrt_CH	1	0
+ThmpsnI	ThBstnP	1	0
+ThmpsnI	CmmnwAM	1	0
+ThmpsnI	ThPOoEG	1	0
+ThmpsnI	DwnstCH	1	0
+ThmpsnI	BstnAth	1	0
+ThmpsnI	EtDaMGH	1	0
+ThmpsnI	BstnWnr	1	0
+ThmpsnI	MtrplWM	1	0
+ThmpsnI	BstnBll	1	0
+ThmpsnI	PirsPrk	1	0
+ThmpsnI	AnaHACM	1	0
+ThmpsnI	ArlngSC	1	0
+ThmpsnI	LttBIaL	1	0
+ThmpsnI	NwEnCJH	1	0
+ThmpsnI	MFABstn	1	0
+ThmpsnI	FrtWrrn	1	0
+ThmpsnI	ThmpsnI	1	0
+ThmpsnI	EmrldNc	1	0
+ThmpsnI	HOME_NEU_END	1	0
+EmrldNc	HOME_NEU_START	1	0
+EmrldNc	FnwyPrk	1	0
+EmrldNc	MsmofFA	1	0
+EmrldNc	NrthEnd	1	0
+EmrldNc	JhFKPML	1	0
+EmrldNc	BstnPbG	1	0
+EmrldNc	SmlAdmB	1	0
+EmrldNc	BstnPbL	1	0
+EmrldNc	BackBay	1	0
+EmrldNc	NwEngHM	1	0
+EmrldNc	ArnldAr	1	0
+EmrldNc	BstnOpH	1	0
+EmrldNc	Mrrt_CH	1	0
+EmrldNc	ThBstnP	1	0
+EmrldNc	CmmnwAM	1	0
+EmrldNc	ThPOoEG	1	0
+EmrldNc	DwnstCH	1	0
+EmrldNc	BstnAth	1	0
+EmrldNc	EtDaMGH	1	0
+EmrldNc	BstnWnr	1	0
+EmrldNc	MtrplWM	1	0
+EmrldNc	BstnBll	1	0
+EmrldNc	PirsPrk	1	0
+EmrldNc	AnaHACM	1	0
+EmrldNc	ArlngSC	1	0
+EmrldNc	LttBIaL	1	0
+EmrldNc	NwEnCJH	1	0
+EmrldNc	MFABstn	1	1
+EmrldNc	FrtWrrn	1	0
+EmrldNc	ThmpsnI	1	0
+EmrldNc	EmrldNc	1	0
+EmrldNc	HOME_NEU_END	1	0
+HOME_NEU_END	HOME_NEU_START	1	0
+HOME_NEU_END	FnwyPrk	1	0
+HOME_NEU_END	MsmofFA	1	0
+HOME_NEU_END	NrthEnd	1	0
+HOME_NEU_END	JhFKPML	1	0
+HOME_NEU_END	BstnPbG	1	0
+HOME_NEU_END	SmlAdmB	1	0
+HOME_NEU_END	BstnPbL	1	0
+HOME_NEU_END	BackBay	1	0
+HOME_NEU_END	NwEngHM	1	0
+HOME_NEU_END	ArnldAr	1	0
+HOME_NEU_END	BstnOpH	1	0
+HOME_NEU_END	Mrrt_CH	1	0
+HOME_NEU_END	ThBstnP	1	0
+HOME_NEU_END	CmmnwAM	1	0
+HOME_NEU_END	ThPOoEG	1	0
+HOME_NEU_END	DwnstCH	1	0
+HOME_NEU_END	BstnAth	1	0
+HOME_NEU_END	EtDaMGH	1	0
+HOME_NEU_END	BstnWnr	1	0
+HOME_NEU_END	MtrplWM	1	0
+HOME_NEU_END	BstnBll	1	0
+HOME_NEU_END	PirsPrk	1	0
+HOME_NEU_END	AnaHACM	1	0
+HOME_NEU_END	ArlngSC	1	0
+HOME_NEU_END	LttBIaL	1	0
+HOME_NEU_END	NwEnCJH	1	0
+HOME_NEU_END	MFABstn	1	0
+HOME_NEU_END	FrtWrrn	1	0
+HOME_NEU_END	ThmpsnI	1	0
+HOME_NEU_END	EmrldNc	1	0
+HOME_NEU_END	HOME_NEU_END	1	0
