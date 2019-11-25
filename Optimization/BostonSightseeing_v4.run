@@ -1,0 +1,33 @@
+reset;
+
+model BostonSightseeing_v4.mod;
+data BostonSightseeing_v4.dat;
+option solver gurobi;
+# expand TotalVisits, TimeSpent;
+solve;
+
+option log_file 'logout2.tmp';
+
+display travel;
+display TotalCost,  TimeSpent;
+display InDegreeOutDegreeMatch;
+
+set PLACES = ALL_PLACES;
+
+table travelled OUT :
+ [ALL_PLACES, PLACES], travel ;
+ 
+write table travelled;
+
+# display visited ;
+display {(i,j) in ALL_PLACES cross ALL_PLACES : travel[i,j] = 1};
+
+# Displaying distance covred:
+display sum { (i,j) in ALL_VALID_PAIRS } Distance[i,j]*travel[i,j];
+
+# Display the edges and the src timevalue and dest timevalue
+display {(i,j) in ALL_PLACES cross ALL_PLACES : travel[i,j] = 1} (Timevalue[i] ,Timevalue[j]);
+
+# Display Number of places visited
+display sum {src in ALL_PLACES, dst in ALL_PLACES}  travel[src, dst] ;
+
