@@ -60,14 +60,14 @@ var Timevalue {p in ALL_PLACES} >= 0 , <= hoursInADay, ;
 
 
 # Objective 1: Maximize total number of places visited
-/*
 maximize TotalVisits :
 	sum {src in ALL_PLACES, dst in ALL_PLACES}  travel[src, dst] 
 	;
-*/
 
+/*
 minimize VisitsByDistance:
 	sum { (i,j) in ALL_VALID_PAIRS } Distance[i,j]*travel[i,j];
+*/
 
 # Cannot travel to a place from itself
 s.t. NoSelfLoop {place in ALL_PLACES}:
