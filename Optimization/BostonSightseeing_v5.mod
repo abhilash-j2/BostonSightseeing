@@ -102,7 +102,7 @@ s.t. NoInvalidPaths { (src,dst) in INVALID_PATHS, day in DAYS } :
 
      
 # Can only visit a place once
-s.t. PlaceSingularity {src in ALL_PLACES}:
+s.t. PlaceSingularity {src in TRAVEL_PLACES}:
   sum {dst in ALL_PLACES, day in DAYS} travel[src,dst, day] <= 1 ;
   
 # Time Spent is within hours allowed
@@ -132,10 +132,10 @@ s.t. Timevalue_dest_smaller {dst in TRAVEL_PLACES union HOMEBASE_END}:
 # First place and last place should be homebase
 
 s.t. StartAtHomebase {hb in HOMEBASE_START, day in DAYS}:
-	sum {place in TRAVEL_PLACES} travel[hb, place, day] = 1;
+	sum {place in TRAVEL_PLACES union HOMEBASE_END} travel[hb, place, day] = 1;
 
 s.t. EndAtHomebase {hb in HOMEBASE_END, day in DAYS}:
-	sum {place in TRAVEL_PLACES} travel[place, hb, day] = 1;
+	sum {place in TRAVEL_PLACES union HOMEBASE_START} travel[place, hb, day] = 1;
 
 /*
 s.t. NoEnteringHomebaseStart {hb in HOMEBASE_START, day in DAYS}:

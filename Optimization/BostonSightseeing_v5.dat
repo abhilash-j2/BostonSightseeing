@@ -9,7 +9,7 @@ NwEnCJH	MFABstn	FrtWrrn	ThmpsnI	EmrldNc ;
 
 param Budget := 500;
 param hoursInADay := 10;
-param NumberOfDays := 1;
+param NumberOfDays := 5;
 param milesPerGallon := 25;
 param costPerGallon := 2.859;
 
