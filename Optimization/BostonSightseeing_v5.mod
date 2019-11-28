@@ -67,8 +67,6 @@ param hoursInADay;
 # Decision variable to denote whether we are at a given place at a given timeslot
 var travel {ALL_PLACES, ALL_PLACES, DAYS} binary;
 
-# var visited{ALL_PLACES} binary;
-
 # Variable to hold the time spent from beginning of trip and ensure that no loops exists in solution
 var Timevalue {p in ALL_PLACES, d in DAYS} >= 0 , <= hoursInADay, ;
 
@@ -125,19 +123,6 @@ s.t. Timevalue_dest {dst in TRAVEL_PLACES union HOMEBASE_END, day in DAYS}:
 	( Timevalue[src, day] + Duration[src] +  
 		Distance[src, dst]*timeFactor/minMPH)*travel[src, dst, day]);
 
-# Fails at activating this
-/*
-s.t. Timevalue_src {src in ALL_PLACES}:
-	Timevalue[src] <= sum {dst in TRAVEL_PLACES union HOMEBASE_END} (( Timevalue[dst] - Duration[src])*travel[src, dst]);
-*/
-	
-# s.t. Timevalue_dest {dst in TRAVEL_PLACES union HOMEBASE_END}:
-#	Timevalue[dst] >= sum {src in ALL_PLACES} ( Timevalue[src] + travel[src, dst] * (Duration[src] + Distance[src, dst]*timeFactor/minMPH ));
-/*
-s.t. Timevalue_dest_smaller {dst in TRAVEL_PLACES union HOMEBASE_END}:
-	Timevalue[dst] >= sum {src in ALL_PLACES} ( Timevalue[src]*travel[src, dst] + Duration[dst]);
-*/
-	
 # First place and last place should be homebase
 
 s.t. StartAtHomebase {hb in HOMEBASE_START, day in DAYS}:
@@ -146,28 +131,7 @@ s.t. StartAtHomebase {hb in HOMEBASE_START, day in DAYS}:
 s.t. EndAtHomebase {hb in HOMEBASE_END, day in DAYS}:
 	sum {place in TRAVEL_PLACES union HOMEBASE_START} travel[place, hb, day] = 1;
 
-/*
-s.t. NoEnteringHomebaseStart {hb in HOMEBASE_START, day in DAYS}:
-	sum {place in TRAVEL_PLACES} travel[place,hb, day] = 0;
-	
-s.t. NoExitingHomebaseEnd {hb in HOMEBASE_END, day in DAYS}:
-	sum {place in TRAVEL_PLACES} travel[hb, place, day] = 0;
-	*/ 
-# Cannot go back to the same place 
-#s.t. ReturnSingularity {src in ALL_PLACES, dst in ALL_PLACES}:
-#		sum {day in DAYS} (travel[src,dst, day] + travel[dst, src, day]) <= 1 ;
 
-/*
-s.t. StartTofinishAvoid {p in TRAVEL_PLACES} :
-	sum {hbs in HOMEBASE_START, hbe in HOMEBASE_END} (travel[hbs, p] + travel[p, hbe] )<= 1;	
-*/	
-	
-# s.t. VisitFLag {place in ALL_PLACES}:
-# 	 visited[place] = sum {dest in ALL_PLACES } travel[place, dest] ; 
-	
-	
-	
-	
 	
 	
 	
