@@ -2,9 +2,10 @@
 # Problem: Boston Sightseeing Optimization
 # Description: This optimization problems aims at helping graduate students sightsee across Boston
 # Authors : Abhilash Janardhanan, Shashank Shet, Pratik Nagare
-# Version No: 19.11.4
+# Version No: 19.11.5
 # Added two sets as dummies for Start and end point
 # Added Timevalue variable that holds the time value
+# Added DAYS to account for multiple day trips
 ########################################################################
 
 
@@ -72,10 +73,18 @@ var travel {ALL_PLACES, ALL_PLACES, DAYS} binary;
 var Timevalue {p in ALL_PLACES, d in DAYS} >= 0 , <= hoursInADay, ;
 
 # Objective 1: Maximize total number of places visited
-
+/*
 maximize TotalVisits :
 	sum {src in ALL_PLACES, dst in ALL_PLACES, day in DAYS}  travel[src, dst, day] 
 	;
+*/
+maximize TotalVisits :
+	sum {(src,dst) in (TRAVEL_PLACES cross 
+					(TRAVEL_PLACES union HOMEBASE_END)),
+		 day in DAYS}  
+	travel[src, dst, day];
+	;
+
 
 /*
 minimize VisitsByDistance:
@@ -145,8 +154,8 @@ s.t. NoExitingHomebaseEnd {hb in HOMEBASE_END, day in DAYS}:
 	sum {place in TRAVEL_PLACES} travel[hb, place, day] = 0;
 	*/ 
 # Cannot go back to the same place 
-s.t. ReturnSingularity {src in ALL_PLACES, dst in ALL_PLACES}:
-		sum {day in DAYS} (travel[src,dst, day] + travel[dst, src, day]) <= 1 ;
+#s.t. ReturnSingularity {src in ALL_PLACES, dst in ALL_PLACES}:
+#		sum {day in DAYS} (travel[src,dst, day] + travel[dst, src, day]) <= 1 ;
 
 /*
 s.t. StartTofinishAvoid {p in TRAVEL_PLACES} :

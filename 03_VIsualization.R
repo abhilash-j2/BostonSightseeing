@@ -1,11 +1,20 @@
 # Renamed the 3 columns to be src, dst, value
 
-links <- read.delim("Optimization/travelled.tab",skip = 1,col.names = c("src","dst","travel"))
+links <- read.delim("Optimization/travelled.tab",skip = 1,col.names = c("src","dst","days","travel"))
 # View(links)
 links_matched <- subset(links, travel == 1)
 library(igraph)
 net <- graph_from_edgelist(as.matrix(links_matched[,1:2]))
 plot(net)
+
+library(visNetwork)
+
+nn <-  toVisNetworkData(net)
+nn$edges$arrows <- "to"
+
+nn$edges$color <- palette(rainbow(length(unique(nn$edges$days))))[nn$edges$days]
+
+visNetwork(nodes = nn$nodes, edges = nn$edges)
 
 ##
 # install.packages("sf")

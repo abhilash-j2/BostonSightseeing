@@ -7,9 +7,9 @@ set TRAVEL_PLACES := 	FnwyPrk	MsmofFA	NrthEnd	JhFKPML	BstnPbG	SmlAdmB	BstnPbL	Ba
 Mrrt_CH	ThBstnP	CmmnwAM	ThPOoEG	DwnstCH	BstnAth	EtDaMGH	BstnWnr	MtrplWM	BstnBll	PirsPrk	AnaHACM	ArlngSC	LttBIaL	
 NwEnCJH	MFABstn	FrtWrrn	ThmpsnI	EmrldNc ;
 
-param Budget := 500;
+param Budget := 100;
 param hoursInADay := 10;
-param NumberOfDays := 5;
+param NumberOfDays := 20;
 param milesPerGallon := 25;
 param costPerGallon := 2.859;
 

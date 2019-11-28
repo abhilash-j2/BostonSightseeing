@@ -32,10 +32,19 @@ display "****** TIMEVALUE TABLES **********";
 # Display the edges and the src timevalue and dest timevalue
 display {(i,j, d) in ALL_PLACES cross ALL_PLACES cross DAYS: travel[i,j,d] = 1} (d, Timevalue[i,d] ,Timevalue[j,d]);
 
-display "****** NUMBER OF PLACES VISITED **********";
+display "****** TOTAL NUMBER OF PLACES VISITED **********";
 # Display Number of places visited
-display sum {src in ALL_PLACES, dst in ALL_PLACES, d in DAYS}  travel[src, dst, d] ;
 
+display sum {(src,dst) in (TRAVEL_PLACES cross 
+					(TRAVEL_PLACES union HOMEBASE_END)),
+		 day in DAYS}  
+	travel[src, dst, day];
+display "****** NUMBER OF PLACES VISITED EACH DAY**********";
+display {day in DAYS} sum {(src,dst) in (TRAVEL_PLACES cross 
+					(TRAVEL_PLACES union HOMEBASE_END))}  
+	travel[src, dst, day];
+	
+	
 display "****** COST INCURRED **********";
 display sum {src in ALL_PLACES, dst in ALL_PLACES, day in DAYS}
       (Cost[src] + costFactor*timeFactor*Distance[src, dst]) * travel[src,dst, day];
