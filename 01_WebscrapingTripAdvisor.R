@@ -400,7 +400,8 @@ combinedTable$combinedCosts <- ifelse(is.na(combinedTable$costs),
        ifelse(is.na(combinedTable$cost_Alt), NA, combinedTable$cost_Alt),
        combinedTable$costs)
 
-combinedTable$Fare <- gregexpr("\\$\\d+\\.?\\d+?",text = combinedTable$combinedCosts) %>% 
+# combinedTable$Fare <- gregexpr("\\$\\d+\\.?\\d+?",text = combinedTable$combinedCosts) 
+combinedTable$Fare <- gregexpr("(\\d+\\.\\d{1,2})",text = combinedTable$combinedCosts) %>% 
   regmatches(x=combinedTable$combinedCosts) %>%
   lapply(FUN = function(x){
     if(length(x)>0){
@@ -424,7 +425,7 @@ combinedTableOutput <- combinedTableOutput[,c("url", "name", "mapinfo", "address
 
 
 combinedTableOutput$timeslots <- gsub(combinedTableOutput$timeslots,pattern = "\n",replacement = " ")
-combinedTableOutput$costString <- gsub(combinedTableOutput$costString, pattern = "\n", replacement = "|")
+combinedTableOutput$combinedCosts <- gsub(combinedTableOutput$combinedCosts, pattern = "\n", replacement = "|")
 
 
 write.csv(combinedTableOutput, "Boston_Listing_Details.csv",row.names = F)
@@ -436,8 +437,8 @@ write.xlsx2(combinedTableOutput,"Boston-Data-Opt.xlsx",row.names = F)
 
 write.csv(combinedTable, "combinedTable_unaltered_data.csv",row.names = F)
 saveRDS(combinedTable, file = "combinedTable.rds")
-saveRDS(rr2, file="rr2.rds")
-saveRDS(rr, file="rr.rds")
+#saveRDS(rr2, file="rr2.rds")
+#saveRDS(rr, file="rr.rds")
 
  
 

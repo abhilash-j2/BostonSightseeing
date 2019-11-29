@@ -1,7 +1,9 @@
 reset;
 
 model BostonSightseeing_v5.mod;
-data BostonSightseeing_v5.dat;
+# data BostonSightseeing_v5_small.dat;
+# data BostonSightseeing_v5_complete.dat;
+ data BostonSightseeing_v5_intermediate.dat;
 option solver gurobi;
 # expand TotalVisits, TimeSpent;
 solve;
@@ -48,3 +50,10 @@ display {day in DAYS} sum {(src,dst) in (TRAVEL_PLACES cross
 display "****** COST INCURRED **********";
 display sum {src in ALL_PLACES, dst in ALL_PLACES, day in DAYS}
       (Cost[src] + costFactor*timeFactor*Distance[src, dst]) * travel[src,dst, day];
+      
+display _total_solve_elapsed_time ,
+_total_solve_system_time ,
+_total_solve_user_time ,
+_total_solve_time;
+      
+      

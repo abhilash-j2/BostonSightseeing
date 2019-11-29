@@ -27,4 +27,4 @@ locations_sf <- st_as_sf(small_combined[,c("name","loc_long","loc_lat")], coords
 mapview(locations_sf)
 
 locations_sf <- st_as_sf(combinedTable[,c("name","loc_long","loc_lat")], coords = c("loc_long", "loc_lat"), crs = 4326)
-mapview(locations_sf)
+mapview(locations_sf,legend = F)

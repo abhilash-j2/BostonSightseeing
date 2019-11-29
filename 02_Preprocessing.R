@@ -9,7 +9,8 @@ distmat_df <- read_excel("DistanceMatrix.xlsx",sheet = 1)
 distmat <- as.matrix(distmat_df[,-c(1,2)])
 rownames(distmat) <- distmat_df$Symbol
 
-
+library(dplyr)
+library(tidyr)
 neu <- combinedTable[1,]
 neu[,] <- NA
 neu$name <- "Home_NEU"
@@ -70,9 +71,9 @@ calc_haversine_dist <- function(lat1, long1, lat2, long2, resultUnits = ""){
 # reducing the data to only 30 places
 a <- distmat
 distmat[lower.tri(distmat)] <- t(distmat)[lower.tri(t(distmat))]
-top30rating <- combinedTable$name_symbol[order(-combinedTable$weighted_Rating)[1:30]]
+top30rating <- combinedTable$name_symbol[order(-combinedTable$weighted_Rating)[1:50]]
 
-top30reviews <- combinedTable$name_symbol[order(-combinedTable$reviews)[1:30]]
+top30reviews <- combinedTable$name_symbol[order(-combinedTable$reviews)[1:50]]
 
 
 # > top30rating
@@ -82,8 +83,9 @@ top30reviews <- combinedTable$name_symbol[order(-combinedTable$reviews)[1:30]]
 
 intersect(top30rating, top30reviews)
 
-small_combined <- combinedTable[which(combinedTable$name_symbol %in% top30),]
-
+# small_combined <- combinedTable[which(combinedTable$name_symbol %in% top30rating),]
+small_combined <- combinedTable
+small_combined <- small_combined[-which(small_combined$name == "MFA Boston"),]
 small_combined <- bind_rows(neu_start,neu_end,small_combined)
 
 combos <- expand.grid(one= small_combined$name_symbol, two = small_combined$name_symbol,
@@ -100,7 +102,7 @@ combos$time_hrs_at_25mph <- combos$distance / 25
 combos$travel_time_at_1.5x <- round(combos$time_hrs_at_25mph * 1.5,digits = 2)
 combos$travel_time_at_1.75x <- round(combos$time_hrs_at_25mph * 1.75,digits = 2)
 
-
+library(tidyr)
 dist_out <- combos %>% select(one, two, distance) %>% spread(two, distance)
 
 durationMap <- data.frame(duration = c("More than 3 hours", "2-3 hours", "1-2 hours", "< 1 hour", 0, NA),
@@ -109,14 +111,18 @@ durationMap <- data.frame(duration = c("More than 3 hours", "2-3 hours", "1-2 ho
 dist_out <- dist_out[match(small_combined$name_symbol,dist_out$one), c("one",small_combined$name_symbol)]
 # write.csv(dist_out, "small_dist_miles.csv",row.names = F)
 write.csv(dist_out, "small_dist_miles_v4.csv",row.names = F)
+#write.csv(dist_out, "complete_dist_miles_v5.csv",row.names = F)
+write.csv(dist_out, "intermediate_dist_miles_v5.csv",row.names = F)
 
 small_combined$FareCorrected <- ifelse(is.na(small_combined$Fare), 0, small_combined$Fare)
 small_combined$duration_numeric <- durationMap$values[match(small_combined$duration, durationMap$duration)]
 
-small_combined %>% select(name_symbol, FareCorrected, duration_numeric, weighted_Rating) %>%
-  write.csv(file = "small_dat_file_v4.csv",row.names = F)
+small_combined %>% 
+  select(name_symbol, FareCorrected, duration_numeric, weighted_Rating) %>%
+  write.csv(file = "intermediate_dat_file_v5.csv",row.names = F)
 
 
+write.csv(file = "complete_dat_file_v5.csv",row.names = F)
 
 smallDist <- distmat[rownames(distmat) %in% top30, colnames(distmat) %in% top30]
 small_combined <- combinedTable[which(combinedTable$name_symbol %in% top30),]

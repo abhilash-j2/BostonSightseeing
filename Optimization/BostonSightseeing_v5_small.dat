@@ -21,15 +21,15 @@ MsmofFA	59
 NrthEnd	20
 JhFKPML	59
 BstnPbG	35
-SmlAdmB	25
+SmlAdmB	63
 BstnPbL	35
 BackBay	35
 NwEngHM	4
 ArnldAr	75
 BstnOpH	19
-Mrrt_CH	19
+Mrrt_CH	27.21
 ThBstnP	0
-CmmnwAM	15
+CmmnwAM	75
 ThPOoEG	0
 DwnstCH	0
 BstnAth	0
@@ -39,13 +39,14 @@ MtrplWM	0
 BstnBll	0
 PirsPrk	0
 AnaHACM	0
-ArlngSC	47
-LttBIaL	10
+ArlngSC	47.15
+LttBIaL	91.57
 NwEnCJH	0
-MFABstn	37
+MFABstn	375
 FrtWrrn	0
-ThmpsnI	34
+ThmpsnI	34.6
 EmrldNc	75
+
 ;
 
 param Duration :=
