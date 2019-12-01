@@ -68,7 +68,7 @@ param hoursInADay;
 var travel {ALL_PLACES, ALL_PLACES, DAYS} binary;
 
 # Variable to hold the time spent from beginning of trip and ensure that no loops exists in solution
-var Timevalue {p in ALL_PLACES, d in DAYS} >= 0 , <= hoursInADay, ;
+var Timevalue {p in ALL_PLACES, d in DAYS} >= 0 , <= hoursInADay ;
 
 # Objective 1: Maximize total number of places visited
 /*

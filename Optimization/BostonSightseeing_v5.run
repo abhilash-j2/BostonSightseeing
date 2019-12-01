@@ -11,7 +11,7 @@ solve;
 option log_file 'logout2.tmp';
 
 display DAYS;
-display travel;
+# display travel;
 display TotalCost,  TimeSpent;
 display InDegreeOutDegreeMatch;
 
