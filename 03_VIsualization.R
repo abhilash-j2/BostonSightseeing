@@ -1,11 +1,13 @@
 # Renamed the 3 columns to be src, dst, value
 
+links <- read.delim("Optimization/outputs/200Budget10Hours8Days.tab",skip = 1,col.names = c("src","dst","days","travel"))
+
 links <- read.delim("Optimization/travelled.tab",skip = 1,col.names = c("src","dst","days","travel"))
 # View(links)
 links_matched <- subset(links, travel == 1)
 library(igraph)
 net <- graph_from_edgelist(as.matrix(links_matched[,1:2]))
-plot(net)
+plot(net,)
 
 path_list <- all_simple_paths(graph = net, from = "HOME_NEU_START",to = "HOME_NEU_END")
 
@@ -36,7 +38,7 @@ nn$edges$arrows <- "to"
 
 nn$edges$color <- palette(rainbow(length(unique(nn$edges$days))))[nn$edges$days]
 
-visNetwork(nodes = nn$nodes, edges = nn$edges)
+visNetwork(nodes = nn$nodes, edges = nn$edges) %>% visPhysics(solver = "repulsion")
 
 ##
 # install.packages("sf")
@@ -50,3 +52,26 @@ mapview(locations_sf)
 
 locations_sf <- st_as_sf(combinedTable[,c("name","loc_long","loc_lat")], coords = c("loc_long", "loc_lat"), crs = 4326)
 mapview(locations_sf,legend = F)
+
+
+library(ggraph)
+
+
+links_matched$newday <- ceiling(links_matched$days/2)
+aa <- graph_from_data_frame(links_matched)
+
+lapply(sort(unique(links_matched$newday)), function(nd){
+  aa <- graph_from_data_frame(subset(links_matched,newday == nd))
+  ggraph(aa) +
+    geom_edge_link(arrow = grid::arrow(type = "closed",length = unit(0.15, "inches"),
+                                       angle = 10),color="red") +
+    geom_node_point(color = "blue", size = 1) +
+    geom_node_label(aes(label = name), repel = TRUE, 
+                    label.size = 0.05) +
+    facet_graph(days~1)
+})
+
+ggraph(aa) +
+  geom_edge_link() + geom_node_point(color = "black", size = 1) +
+  geom_node_label(aes(label = name), repel = TRUE, label.size = 0.02) +
+  facet_graph(days~1)
